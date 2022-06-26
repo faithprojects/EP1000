@@ -717,3 +717,73 @@ li.dropdown-menu-chess {
   margin-left: auto;  
   margin-right: auto;
 }
+
+
+
+
+/*3D INDIVIDUAL ASSIGNMENT PAGE*/
+ul.list-3dAssign {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  text-align: center;
+  
+  
+}
+
+li.title-3dAssign {
+display: inline-block;
+padding: 20px 20px;
+}
+
+li.item-3dAssign {
+  display: inline-block;
+}
+
+li a, .dropitem-3dAssign {
+  display: block;
+  color: white;
+  text-align: left;
+  padding: 20px 60px;
+  color: #f7fbfc;
+}
+
+li a:hover, .dropdown-menu-3dAssign:hover .dropitem-3dAssign {
+  background-color: #6d98c9;
+  border-radius: 10px;
+}
+
+li.dropdown-menu-3dAssign {
+  display: inline-block;
+}
+  
+.drop-content-3dAssign {
+  display: none;
+  position: absolute;
+  background-color: #769fcd;
+  min-width: 50px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  border-radius: 0px 0px 10px 10px;
+  z-index: 1;
+}
+
+.drop-content-3dAssign a {
+  color: #f7fbfc;
+  padding: 15px 16px;
+  
+  text-decoration: none;
+  display: block;
+  text-align: center;
+}
+
+.drop-content-3dAssign a:hover {background-color: #6d98c9;}
+
+.dropdown-menu-3dAssign:hover .drop-content-3dAssign {
+  display: block;
+}
+
+#main-3dAssign {
+  text-align: center;
+  font-family: 'K2D', sans-serif;
+}
