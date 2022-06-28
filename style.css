@@ -6,7 +6,8 @@ body {
 }
 
 a{
-    text-decoration: none;
+  text-decoration: none;
+  color:black;
 }
 
 
@@ -726,7 +727,7 @@ li.dropdown-menu-chess {
   display: block;
 }
 
-#main-chess {
+#main-models {
   text-align: center;
   font-family: 'K2D', sans-serif;
   
