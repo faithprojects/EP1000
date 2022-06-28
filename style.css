@@ -96,6 +96,8 @@ ul.list {
 
 #content {
     padding: 15px;
+    font-family: 'K2D', sans-serif;
+    text-align: center;
 }
 
 
@@ -297,7 +299,7 @@ h2, p, h3 {
 }
 
 div.software-box {
-  margin: 20px;
+  margin: 32px;
   border: 4px;
   border-style:solid;
   border-color: #a5d4f1;
@@ -322,6 +324,39 @@ div.tools-used {
   text-align: center;
   color:black;
 }
+
+#vs-extentions {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div.extensions-box {
+  margin: 32px;
+  border: 4px;
+  border-style:solid;
+  border-color: #a5d4f1;
+  background-color: #a5d4f1;
+  float: left;
+  width: 260px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+div.extensions-box:hover {
+  
+  border: 4px;
+  border-style:solid;
+  border-color: #b7dcf3;
+  background-color: #b7dcf3;
+  border-radius: 10px;
+}
+
+div.extensions-used {
+  padding: 10px;
+  text-align: center;
+  color:black;
+}
+
 
 
   
