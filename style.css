@@ -783,6 +783,20 @@ li.dropdown-menu-chess {
  
 }
 
+.keychain-content {
+  display: grid;
+  grid-template-columns: auto auto ;
+  column-gap: 2px;
+  padding: 10px;
+}
+
+.keychain-content > div {
+  
+  text-align: center;
+  padding: 20px ;
+ 
+}
+
 
 
 
