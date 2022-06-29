@@ -666,7 +666,7 @@ li.dropdown-menu-git {
 
 
 
-/*KNIGHT PAGE*/
+/*3D MODEL PAGE*/
 ul.list-chess {
   list-style-type: none;
   margin: 0;
@@ -747,11 +747,40 @@ li.dropdown-menu-chess {
  
 }
 
+
 #steps {
   background-color: #f7fbfc;
   display: block;  
   margin-left: auto;  
   margin-right: auto;
+}
+
+.lego-content {
+  display: grid;
+  grid-template-columns: auto auto ;
+  column-gap: 2px;
+  padding: 10px;
+}
+
+.lego-content > div {
+  
+  text-align: center;
+  padding: 20px ;
+ 
+}
+
+.nut-content {
+  display: grid;
+  grid-template-columns: auto auto ;
+  column-gap: 2px;
+  padding: 10px;
+}
+
+.nut-content > div {
+  
+  text-align: center;
+  padding: 20px ;
+ 
 }
 
 
