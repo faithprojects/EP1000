@@ -324,7 +324,7 @@ div.software-box:hover {
 div.tools-used {
   padding: 10px;
   text-align: center;
-  color:black;
+  color:#f7fbfc;
   box-sizing: border-box;
 }
 
@@ -358,7 +358,7 @@ div.extensions-box:hover {
 div.extensions-used {
   padding: 10px;
   text-align: center;
-  color:black;
+  color:#f7fbfc;
 }
 
 
@@ -416,9 +416,10 @@ div.project-des {
   box-sizing: border-box;
   padding: 15px;
   text-align: center;
+  color: #f7fbfc;
 }
 .project-title {
-  color: black;
+  color: #f7fbfc;
   text-align: center;
 }
 
