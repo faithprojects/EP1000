@@ -126,6 +126,7 @@ ul.list {
     color: #f7fbfc;
     font-family: 'K2D', sans-serif;
     font-size: 15px;
+    font-weight: bold;
 }
 
 
@@ -202,6 +203,7 @@ section {
     align-items: center;
     min-height: 300px;
     padding: 100px;
+    color: #acd6f0;
     
     
     
@@ -225,7 +227,7 @@ section {
 }
 
 .engineering {
-  color: #a5d4f1;
+  color: #f7fbfc;
   font-size: 80px;
 }
 
@@ -273,6 +275,7 @@ table {
 td {
   padding: 50px;
   font-size: 17px;
+  color: black;
 }
 
 .hobbies {
