@@ -191,25 +191,78 @@ li.dropdown-menu-about {
 }
 
 
-#header-about{
+
+section {
     text-align: center;
     font-family: 'K2D', sans-serif;
-    font-size: 15px;
-    padding: 140px;
+    font-size: 30px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 300px;
+    padding: 100px;
+    
+    
+    
  
 }
 
-.engineering {
+.header-about {
+  text-align: center;
+  font-size: 30px;
+  background: #769fcd;
+}
+
+.main-about {
+  background: #a5d4f1;
+  text-align: left;
+  
+}
+
+.h-about {
   color: #769fcd;
-  font-size: larger;
+}
+
+.engineering {
+  color: #a5d4f1;
+  font-size: 80px;
+}
+
+.about-curve {
+  position: absolute;
+  height: 225px;
+  width: 100%;
+  bottom: 0;
+}
+
+.about-curve::before {
+  content: '';
+  display: block;
+  position: absolute;
+  border-radius: 0% 50%;
+  width: 50.3%;
+  height: 100%;
+  background-color: #769fcd;
+  transform: translate(98.7%, 40%);
+  z-index: 1;
+
+}
+
+.about-curve::after {
+  content: '';
+  display: block;
+  position: absolute;
+  border-radius: 0% 50%;
+  width: 50.7%;
+  height: 100%;
+  background-color: #a5d4f1;
+  transform: translate(-0.1%, 60%);
+  
 }
 
 
-#main-about {
-    text-align: left;
-    font-family: 'K2D', sans-serif;
-    font-size: 15px;
-}
+
 
 table {
   margin-left: auto;
@@ -219,6 +272,7 @@ table {
 
 td {
   padding: 50px;
+  font-size: 17px;
 }
 
 .hobbies {
