@@ -204,10 +204,6 @@ section {
     min-height: 300px;
     padding: 100px;
     color: #acd6f0;
-    
-    
-    
- 
 }
 
 .header-about {
@@ -242,7 +238,7 @@ section {
   content: '';
   display: block;
   position: absolute;
-  border-radius: 0% 50%;
+  border-radius: 10% 50%;
   width: 50.3%;
   height: 100%;
   background-color: #769fcd;
@@ -255,7 +251,7 @@ section {
   content: '';
   display: block;
   position: absolute;
-  border-radius: 0% 50%;
+  border-radius: 10% 50%;
   width: 50.7%;
   height: 100%;
   background-color: #a5d4f1;
