@@ -30,6 +30,7 @@ a{
     font-family: 'K2D', sans-serif;
     font-size: 15px;
     font-weight: 600;
+    
 }
 
 
@@ -572,6 +573,8 @@ span {
 
 
 /*WEBSITE DEVELOPMENT PAGE*/
+
+
 ul.list-website {
   list-style-type: none;
   margin: 0;
@@ -928,6 +931,142 @@ li.dropdown-menu-3dAssign {
 }
 
 #main-3dAssign {
+  text-align: center;
+  font-family: 'K2D', sans-serif;
+}
+
+
+
+/*GIMP*/
+ul.list-raster {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  text-align: center;
+  
+}
+
+li.title-raster {
+display: inline-block;
+padding: 20px 20px;
+}
+
+li.item-raster {
+  display: inline-block;
+}
+
+li a, .dropitem-raster {
+  display: block;
+  color: white;
+  text-align: left;
+  padding: 20px 60px;
+  color: #f7fbfc;
+}
+
+li a:hover, .dropdown-menu-raster:hover .dropitem-raster {
+  background-color: #6d98c9;
+  border-radius: 10px;
+}
+
+li.dropdown-menu-raster {
+  display: inline-block;
+}
+  
+.drop-content-raster {
+  display: none;
+  position: absolute;
+  background-color: #769fcd;
+  min-width: 50px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  border-radius: 0px 0px 10px 10px;
+  z-index: 1;
+}
+
+.drop-content-raster a {
+  color: #f7fbfc;
+  padding: 15px 16px;
+  
+  text-decoration: none;
+  display: block;
+  text-align: center;
+}
+
+.drop-content-raster a:hover {background-color: #6d98c9;}
+
+.dropdown-menu-raster:hover .drop-content-raster {
+  display: block;
+}
+
+#main-raster {
+  text-align: center;
+  font-family: 'K2D', sans-serif;
+}
+
+
+
+/*INKSCAPE*/
+ul.list-vector {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  text-align: center;
+  
+}
+
+li.title-vector {
+display: inline-block;
+padding: 20px 20px;
+}
+
+li.item-vector {
+  display: inline-block;
+}
+
+li a, .dropitem-vector {
+  display: block;
+  color: white;
+  text-align: left;
+  padding: 20px 60px;
+  color: #f7fbfc;
+}
+
+li a:hover, .dropdown-menu-vector:hover .dropitem-vector {
+  background-color: #6d98c9;
+  border-radius: 10px;
+}
+
+li.dropdown-menu-vector {
+  display: inline-block;
+}
+  
+.drop-content-vector {
+  display: none;
+  position: absolute;
+  background-color: #769fcd;
+  min-width: 50px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  border-radius: 0px 0px 10px 10px;
+  z-index: 1;
+}
+
+.drop-content-vector a {
+  color: #f7fbfc;
+  padding: 15px 16px;
+  
+  text-decoration: none;
+  display: block;
+  text-align: center;
+}
+
+.drop-content-vector a:hover {background-color: #6d98c9;}
+
+.dropdown-menu-vector:hover .drop-content-vector {
+  display: block;
+}
+
+#main-vector {
   text-align: center;
   font-family: 'K2D', sans-serif;
 }
