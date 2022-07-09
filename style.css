@@ -1070,3 +1070,18 @@ li.dropdown-menu-vector {
   text-align: center;
   font-family: 'K2D', sans-serif;
 }
+
+.vector-content {
+  display: grid;
+  grid-template-columns: auto auto ;
+  column-gap: 2px;
+  padding: 10px;
+}
+
+.vector-content > div {
+  
+  text-align: center;
+  padding: 20px ;
+ 
+}
+
