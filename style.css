@@ -1003,6 +1003,20 @@ li.dropdown-menu-raster {
   font-family: 'K2D', sans-serif;
 }
 
+.raster-content {
+  display: grid;
+  grid-template-columns: auto auto ;
+  column-gap: 2px;
+  padding: 10px;
+}
+
+.raster-content > div {
+  
+  text-align: center;
+  padding: 20px ;
+ 
+}
+
 
 
 /*INKSCAPE*/
