@@ -1175,3 +1175,17 @@ li.dropdown-menu-timer {
 .timer-link:link {
   text-decoration:underline;
 }
+
+.timer-components-list {
+  display: grid;
+  grid-template-columns: auto auto ;
+  column-gap: 2px;
+  padding: 10px;
+}
+
+.timer-components-list > div {
+  
+  text-align: center;
+  padding: 10px ;
+ 
+}
