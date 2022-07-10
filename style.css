@@ -7,7 +7,7 @@ body {
 
 a{
   text-decoration: none;
-  color:black;
+  color:#769fcd;
 }
 
 
@@ -1171,4 +1171,7 @@ li.dropdown-menu-timer {
 #main-timer {
   text-align: center;
   font-family: 'K2D', sans-serif;
+}
+.timer-link:link {
+  text-decoration:underline;
 }
