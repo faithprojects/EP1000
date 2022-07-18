@@ -25,6 +25,10 @@ a{
   margin-left: 60px;
 }
 
+.logo {
+  width: 70px;
+}
+
 
 #nav {
     background-color: #769fcd;
