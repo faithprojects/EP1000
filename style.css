@@ -126,6 +126,37 @@ li.dropdown-menu {
 
 
 /*IMG WIDTH AND HEIGHT SIZES*/
+.heightimg-110px {
+  height: 110px;
+}
+
+.heightimg-200px {
+  height: 200px;
+}
+
+.heightimg-230px {
+  height: 230px;
+} 
+
+.heightimg-250px {
+  height: 250px;
+}
+
+.heightimg-270px {
+  height: 270px;
+}
+
+.heightimg-300px {
+  height: 300px;
+}
+
+.heightimg-350px {
+  height: 350px;
+}
+
+.heightimg-400px {
+  height: 400px;
+}
 
 
 
@@ -139,8 +170,6 @@ ul.list-about {
   text-align: center;
   
 }
-
-
 
 li.item-about {
   display: inline-block;
@@ -188,8 +217,6 @@ li.dropdown-menu-about {
   display: block;
 }
 
-
-
 section {
     text-align: center;
     font-family: 'K2D', sans-serif;
@@ -222,6 +249,10 @@ section {
 .engineering {
   color: #f7fbfc;
   font-size: 80px;
+}
+
+.profile {
+  height: 300px;
 }
 
 .about-curve {
@@ -1099,6 +1130,11 @@ li.dropdown-menu-vector {
   text-align: center;
   padding: 20px ;
  
+}
+
+.tab-image img {
+  width: 300px;
+  height: 600px;
 }
 
 
