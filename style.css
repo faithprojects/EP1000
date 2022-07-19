@@ -158,6 +158,10 @@ li.dropdown-menu {
   height: 400px;
 }
 
+.widthimg-700px {
+  width: 700px;
+}
+
 
 
 /*ABOUT PAGE*/
@@ -497,6 +501,12 @@ div.project-box img {
   width: 100%;
   border-radius: 10px 10px 10px 10px;
   box-sizing: border-box;
+  
+}
+
+.project-box {
+  width: 600px;
+  height: 150px;
 }
 
 div.project-des {
