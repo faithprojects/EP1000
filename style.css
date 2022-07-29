@@ -50,7 +50,7 @@ li a, .dropitem {
   display: block;
   color: white;
   text-align: left;
-  padding: 20px 60px;
+  padding: 20px 45px;
   color: #f7fbfc;
 }
 
@@ -166,7 +166,7 @@ li.dropdown-menu {
 
 /*ABOUT PAGE*/
 
-ul.list-about {
+.list-about {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -175,15 +175,15 @@ ul.list-about {
   
 }
 
-li.item-about {
+.item-about {
   display: inline-block;
 }
 
-li a, .dropitem-about {
+.dropitem-about {
   display: block;
   color: white;
   text-align: left;
-  padding: 20px 60px;
+  padding: 20px 45px;
   color: #f7fbfc;
 }
 
@@ -192,7 +192,7 @@ li a:hover, .dropdown-menu-about:hover .dropitem-about {
   border-radius: 10px;
 }
 
-li.dropdown-menu-about {
+.dropdown-menu-about {
   display: inline-block;
 }
 
@@ -291,9 +291,6 @@ section {
   
 }
 
-
-
-
 table {
   margin-left: auto;
   margin-right: auto;
@@ -316,7 +313,7 @@ td {
 
 /*TOOLS PAGE*/
 
-ul.list-tools {
+.list-tools {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -325,20 +322,20 @@ ul.list-tools {
   
 }
 
-li.title-tools {
+.title-tools {
 display: inline-block;
 padding: 20px 20px;
 }
 
-li.item-tools {
+.item-tools {
   display: inline-block;
 }
 
-li a, .dropitem-tools {
+.dropitem-tools {
   display: block;
   color: white;
   text-align: left;
-  padding: 20px 60px;
+  padding: 20px 45px;
   color: #f7fbfc;
 }
 
@@ -347,7 +344,7 @@ li a:hover, .dropdown-menu-tools:hover .dropitem-tools {
   border-radius: 10px;
 }
 
-li.dropdown-menu-tools {
+.dropdown-menu-tools {
   display: inline-block;
 }
   
@@ -457,7 +454,7 @@ div.extensions-used {
 
 /*PROJECT PAGE*/
 
-ul.list-project {
+.list-project {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -467,7 +464,7 @@ ul.list-project {
 }
 
 
-li.item-project{
+.item-project{
   display: inline-block;
   
 }
@@ -525,7 +522,7 @@ div.project-des {
 
 /*FABLAB SAFETY PAGE*/
 
-ul.list-safety {
+.list-safety {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -535,20 +532,15 @@ ul.list-safety {
   
 }
 
-li.title-safety {
-display: inline-block;
-padding: 20px 20px;
-}
-
-li.item-safety {
+.item-safety {
   display: inline-block;
 }
 
-li a, .dropitem-safety {
+.dropitem-safety {
   display: block;
   color: white;
   text-align: left;
-  padding: 20px 60px;
+  padding: 20px 45px;
   color: #f7fbfc;
 }
 
@@ -557,7 +549,7 @@ li a:hover, .dropdown-menu-safety:hover .dropitem-safety {
   border-radius: 10px;
 }
 
-li.dropdown-menu-safety {
+.dropdown-menu-safety {
   display: inline-block;
 }
   
@@ -602,7 +594,6 @@ li.dropdown-menu-safety {
   
   text-align: center;
   padding: 20px ;
- 
 }
 
 h4, ul {
@@ -616,9 +607,7 @@ span {
 
 
 /*WEBSITE DEVELOPMENT PAGE*/
-
-
-ul.list-website {
+.list-website {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -628,20 +617,15 @@ ul.list-website {
   
 }
 
-li.title-website {
-display: inline-block;
-padding: 20px 20px;
-}
-
-li.item-website {
+.item-website {
   display: inline-block;
 }
 
-li a, .dropitem-website {
+.dropitem-website {
   display: block;
   color: white;
   text-align: left;
-  padding: 20px 60px;
+  padding: 20px 45px;
   color: #f7fbfc;
 }
 
@@ -650,7 +634,7 @@ li a:hover, .dropdown-menu-website:hover .dropitem-website {
   border-radius: 10px;
 }
 
-li.dropdown-menu-website {
+.dropdown-menu-website {
   display: inline-block;
 }
   
@@ -695,7 +679,6 @@ li.dropdown-menu-website {
   
   text-align: center;
   padding: 20px ;
- 
 }
 
 
@@ -706,7 +689,7 @@ li.dropdown-menu-website {
 
 /*GITHUB PAGE*/
 
-ul.list-git {
+.list-git {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -715,20 +698,15 @@ ul.list-git {
   
 }
 
-li.title-git {
-display: inline-block;
-padding: 20px 20px;
-}
-
-li.item-git {
+.item-git {
   display: inline-block;
 }
 
-li a, .dropitem-git {
+.dropitem-git {
   display: block;
   color: white;
   text-align: left;
-  padding: 20px 60px;
+  padding: 20px 45px;
   color: #f7fbfc;
 }
 
@@ -737,7 +715,7 @@ li a:hover, .dropdown-menu-git:hover .dropitem-git {
   border-radius: 10px;
 }
 
-li.dropdown-menu-git {
+.dropdown-menu-git {
   display: inline-block;
 }
   
@@ -774,7 +752,7 @@ li.dropdown-menu-git {
 
 
 /*3D MODEL PAGE*/
-ul.list-chess {
+.list-chess {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -783,20 +761,15 @@ ul.list-chess {
   
 }
 
-li.title-chess {
-display: inline-block;
-padding: 20px 20px;
-}
-
-li.item-chess {
+.item-chess {
   display: inline-block;
 }
 
-li a, .dropitem-chess {
+.dropitem-chess {
   display: block;
   color: white;
   text-align: left;
-  padding: 20px 60px;
+  padding: 20px 45px;
   color: #f7fbfc;
 }
 
@@ -805,7 +778,7 @@ li a:hover, .dropdown-menu-chess:hover .dropitem-chess {
   border-radius: 10px;
 }
 
-li.dropdown-menu-chess {
+.dropdown-menu-chess {
   display: inline-block;
 }
   
@@ -875,7 +848,6 @@ li.dropdown-menu-chess {
   
   text-align: center;
   padding: 20px ;
- 
 }
 
 .nut-content {
@@ -889,7 +861,6 @@ li.dropdown-menu-chess {
   
   text-align: center;
   padding: 20px ;
- 
 }
 
 .keychain-content {
@@ -902,8 +873,7 @@ li.dropdown-menu-chess {
 .keychain-content > div {
   
   text-align: center;
-  padding: 20px ;
- 
+  padding: 20px;
 }
 
 #main-keychain ul{
@@ -914,7 +884,7 @@ li.dropdown-menu-chess {
 
 
 /*3D INDIVIDUAL ASSIGNMENT PAGE*/
-ul.list-3dAssign {
+.list-3dAssign {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -924,20 +894,15 @@ ul.list-3dAssign {
   
 }
 
-li.title-3dAssign {
-display: inline-block;
-padding: 20px 20px;
-}
-
-li.item-3dAssign {
+.item-3dAssign {
   display: inline-block;
 }
 
-li a, .dropitem-3dAssign {
+.dropitem-3dAssign {
   display: block;
   color: white;
   text-align: left;
-  padding: 20px 60px;
+  padding: 20px 45px;
   color: #f7fbfc;
 }
 
@@ -946,7 +911,7 @@ li a:hover, .dropdown-menu-3dAssign:hover .dropitem-3dAssign {
   border-radius: 10px;
 }
 
-li.dropdown-menu-3dAssign {
+.dropdown-menu-3dAssign {
   display: inline-block;
 }
   
@@ -983,7 +948,7 @@ li.dropdown-menu-3dAssign {
 
 
 /*GIMP*/
-ul.list-raster {
+.list-raster {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -992,20 +957,15 @@ ul.list-raster {
   
 }
 
-li.title-raster {
-display: inline-block;
-padding: 20px 20px;
-}
-
-li.item-raster {
+.item-raster {
   display: inline-block;
 }
 
-li a, .dropitem-raster {
+.dropitem-raster {
   display: block;
   color: white;
   text-align: left;
-  padding: 20px 60px;
+  padding: 20px 45px;
   color: #f7fbfc;
 }
 
@@ -1014,7 +974,7 @@ li a:hover, .dropdown-menu-raster:hover .dropitem-raster {
   border-radius: 10px;
 }
 
-li.dropdown-menu-raster {
+.dropdown-menu-raster {
   display: inline-block;
 }
   
@@ -1059,13 +1019,12 @@ li.dropdown-menu-raster {
   
   text-align: center;
   padding: 20px ;
- 
 }
 
 
 
 /*INKSCAPE*/
-ul.list-vector {
+.list-vector {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -1074,20 +1033,16 @@ ul.list-vector {
   
 }
 
-li.title-vector {
-display: inline-block;
-padding: 20px 20px;
-}
 
-li.item-vector {
+.item-vector {
   display: inline-block;
 }
 
-li a, .dropitem-vector {
+.dropitem-vector {
   display: block;
   color: white;
   text-align: left;
-  padding: 20px 60px;
+  padding: 20px 45px;
   color: #f7fbfc;
 }
 
@@ -1096,7 +1051,7 @@ li a:hover, .dropdown-menu-vector:hover .dropitem-vector {
   border-radius: 10px;
 }
 
-li.dropdown-menu-vector {
+.dropdown-menu-vector {
   display: inline-block;
 }
   
@@ -1151,8 +1106,9 @@ li.dropdown-menu-vector {
 
 
 
-/*ELECTRONICS PAGE*/
-ul.list-timer {
+
+/*LASER CUTTING PAGE*/
+.list-laser {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -1161,20 +1117,73 @@ ul.list-timer {
   
 }
 
-li.title-timer {
-display: inline-block;
-padding: 20px 20px;
-}
-
-li.item-timer {
+.item-laser {
   display: inline-block;
 }
 
-li a, .dropitem-timer {
+.dropitem-laser {
   display: block;
   color: white;
   text-align: left;
-  padding: 20px 60px;
+  padding: 20px 45px;
+  color: #f7fbfc;
+}
+
+li a:hover, .dropdown-menu-laser:hover .dropitem-laser {
+  background-color: #6d98c9;
+  border-radius: 10px;
+}
+
+.dropdown-menu-laser {
+  display: inline-block;
+}
+  
+.drop-content-laser {
+  display: none;
+  position: absolute;
+  background-color: #769fcd;
+  min-width: 50px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  border-radius: 0px 0px 10px 10px;
+  z-index: 1;
+}
+
+.drop-content-laser a {
+  color: #f7fbfc;
+  padding: 15px 16px;
+  
+  text-decoration: none;
+  display: block;
+  text-align: center;
+}
+
+.drop-content-laser a:hover {background-color: #6d98c9;}
+
+.dropdown-menu-laser:hover .drop-content-laser {
+  display: block;
+}
+
+
+/*ELECTRONICS PAGE*/
+.list-timer {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  text-align: center;
+  
+}
+
+
+.item-timer {
+  display: inline-block;
+}
+
+.dropitem-timer {
+  display: block;
+  color: white;
+  text-align: left;
+  padding: 20px 45px;
   color: #f7fbfc;
 }
 
@@ -1183,7 +1192,7 @@ li a:hover, .dropdown-menu-timer:hover .dropitem-timer {
   border-radius: 10px;
 }
 
-li.dropdown-menu-timer {
+.dropdown-menu-timer {
   display: inline-block;
 }
   
@@ -1231,5 +1240,4 @@ li.dropdown-menu-timer {
   
   text-align: center;
   padding: 10px ;
- 
 }
