@@ -27,19 +27,19 @@ a{
 }
 
 #nav {
-    background-color: #769fcd;
-    font-family: 'K2D', sans-serif;
-    font-size: 15px;
-    font-weight: 600;
+  background-color: #769fcd;
+  font-family: 'K2D', sans-serif;
+  font-size: 15px;
+  font-weight: 600;
     
 }
 
 ul.list {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    text-align: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  text-align: center;
 }
 
 li.item {
@@ -90,25 +90,23 @@ li.dropdown-menu {
 
 
 #content {
-    padding: 15px;
-    font-family: 'K2D', sans-serif;
-    text-align: center;
+  padding: 15px;
+  font-family: 'K2D', sans-serif;
+  text-align: center;
 }
 
 
 #header{
-    
-    text-align: center;
-    font-family: 'K2D', sans-serif;
-    font-size: 15px;
-   
+  text-align: center;
+  font-family: 'K2D', sans-serif;
+  font-size: 15px;
 }
 
 
 #main {
   text-align: center;
   font-family: 'K2D', sans-serif;
-    font-size: 15px;
+  font-size: 15px;
 }
 
 
@@ -1240,3 +1238,88 @@ li a:hover, .dropdown-menu-timer:hover .dropitem-timer {
   text-align: center;
   padding: 10px ;
 }
+
+
+
+/*FINAL PROJECT PAGE*/
+.list-final {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  text-align: center;
+  
+}
+
+.item-final {
+  display: inline-block;
+}
+
+.dropitem-final {
+  display: block;
+  color: white;
+  text-align: left;
+  padding: 20px 45px;
+  color: #f7fbfc;
+}
+
+li a:hover, .dropdown-menu-final:hover .dropitem-final {
+  background-color: #6d98c9;
+  border-radius: 10px;
+}
+
+.dropdown-menu-final {
+  display: inline-block;
+}
+  
+.drop-content-final {
+  display: none;
+  position: absolute;
+  background-color: #769fcd;
+  min-width: 50px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  border-radius: 0px 0px 10px 10px;
+  z-index: 1;
+}
+
+.drop-content-final a {
+  color: #f7fbfc;
+  padding: 15px 16px;
+  
+  text-decoration: none;
+  display: block;
+  text-align: center;
+}
+
+.drop-content-final a:hover {background-color: #6d98c9;}
+
+.dropdown-menu-final:hover .drop-content-final {
+  display: block;
+}
+
+#nav-for-main {
+  width: 200px;
+  float: left;
+  font-size: 20px;
+  position: fixed;
+  padding-top: 20px;
+}
+
+#header-final {
+  width: 790px;
+  float: right;
+  text-align: center;
+  font-family: 'K2D', sans-serif;
+  font-size: 15px;
+}
+
+#main-final {
+  width: 790px;
+  float: right;
+  text-align: center;
+  font-family: 'K2D', sans-serif;
+  font-size: 15px;
+}
+
+
+
