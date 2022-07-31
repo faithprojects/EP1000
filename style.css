@@ -29,7 +29,7 @@ a{
 #nav {
   background-color: #769fcd;
   font-family: 'K2D', sans-serif;
-  font-size: 15px;
+  font-size: 17px;
   font-weight: 600;
     
 }
@@ -99,15 +99,17 @@ li.dropdown-menu {
 #header{
   text-align: center;
   font-family: 'K2D', sans-serif;
-  font-size: 15px;
+  font-size: 17px;
 }
 
 
 #main {
   text-align: center;
   font-family: 'K2D', sans-serif;
-  font-size: 15px;
+  font-size: 17px;
 }
+
+
 
 
 #footer {
@@ -117,7 +119,7 @@ li.dropdown-menu {
     background-color: #a5d4f1;
     color: #f7fbfc;
     font-family: 'K2D', sans-serif;
-    font-size: 15px;
+    font-size: 17px;
     font-weight: bold;
 }
 
@@ -577,7 +579,8 @@ li a:hover, .dropdown-menu-safety:hover .dropitem-safety {
 }
 
 #main-safety {
-  text-align: center;
+  text-align: left;
+  font-size: 17px;
   font-family: 'K2D', sans-serif;
 }
 
@@ -662,7 +665,8 @@ li a:hover, .dropdown-menu-website:hover .dropitem-website {
 }
 
 #main-website {
-  text-align: center;
+  text-align: left;
+  font-size: 17px;
   font-family: 'K2D', sans-serif;
 }
 
@@ -743,7 +747,8 @@ li a:hover, .dropdown-menu-git:hover .dropitem-git {
 }
 
 #main-gitHub {
-  text-align: center;
+  text-align: left;
+  font-size: 17px;
   font-family: 'K2D', sans-serif;
 }
 
@@ -806,7 +811,8 @@ li a:hover, .dropdown-menu-chess:hover .dropitem-chess {
 }
 
 #main-models {
-  text-align: center;
+  text-align: left;
+  font-size: 17px;
   font-family: 'K2D', sans-serif;
   
 }
@@ -875,7 +881,7 @@ li a:hover, .dropdown-menu-chess:hover .dropitem-chess {
 }
 
 #main-keychain ul{
-  text-align: center;
+  text-align: left;
 }
 
 
@@ -939,7 +945,8 @@ li a:hover, .dropdown-menu-3dAssign:hover .dropitem-3dAssign {
 }
 
 #main-3dAssign {
-  text-align: center;
+  text-align: left;
+  font-size: 17px;
   font-family: 'K2D', sans-serif;
 }
 
@@ -1002,7 +1009,8 @@ li a:hover, .dropdown-menu-raster:hover .dropitem-raster {
 }
 
 #main-raster {
-  text-align: center;
+  text-align: left;
+  font-size: 17px;
   font-family: 'K2D', sans-serif;
 }
 
@@ -1079,7 +1087,8 @@ li a:hover, .dropdown-menu-vector:hover .dropitem-vector {
 }
 
 #main-vector {
-  text-align: center;
+  text-align: left;
+  font-size: 17px;
   font-family: 'K2D', sans-serif;
 }
 
@@ -1161,8 +1170,14 @@ li a:hover, .dropdown-menu-laser:hover .dropitem-laser {
   display: block;
 }
 
+#main-laser {
+  text-align: left;
+  font-size: 17px;
+  font-family: 'K2D', sans-serif;
+}
 
-/*ELECTRONICS PAGE*/
+
+/*ELECTRONICS & ARDUINO PAGE*/
 .list-timer {
   list-style-type: none;
   margin: 0;
@@ -1219,9 +1234,11 @@ li a:hover, .dropdown-menu-timer:hover .dropitem-timer {
 }
 
 #main-timer {
-  text-align: center;
+  text-align: left;
+  font-size: 17px;
   font-family: 'K2D', sans-serif;
 }
+
 .timer-link:link {
   text-decoration:underline;
 }
@@ -1310,7 +1327,7 @@ li a:hover, .dropdown-menu-final:hover .dropitem-final {
   float: right;
   text-align: center;
   font-family: 'K2D', sans-serif;
-  font-size: 15px;
+  font-size: 17px;
 }
 
 #main-final {
@@ -1318,7 +1335,7 @@ li a:hover, .dropdown-menu-final:hover .dropitem-final {
   float: right;
   text-align: center;
   font-family: 'K2D', sans-serif;
-  font-size: 15px;
+  font-size: 17px;
 }
 
 
