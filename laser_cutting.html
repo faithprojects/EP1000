@@ -65,8 +65,63 @@
                 </div>
 
                 <div class="Box-base">
+                    <h2>Base Body</h2>
+                    <ol>
+                        <li>Starting with the base of the box I first made a box using the user parameters i put the length, width and heigh of the box.</li>
+                        <li>Create a new sketch and using a 2 point rectangle, draw the shape of the tab and using LTabForm and Thickness parameters. Use the sketch dimension to space out the tab.</li>
+                        <li>Using Extrude tool, cut the rectangle shape you made to make the tab.</li>
+                        <li>Then using the rectangular pattern, using the features type click on to the rectangle shape that you cut in Step 3 and select the direction that is highlighted in blue then use LPattForm which is the distance and quantity is LSTab parameters.</li>
+                        <li>Following the same steps from 1 to 4, do it on the width side of the base.</li>
+
+                    </ol>
                     
                 </div>
+
+                <div class="Box-front">
+                    <h2>Front body</h2>
+                    <ol>
+                        <li>Now we will start sketching the front so place a new sketch infront of the tab and start creating your front body using your Length and Height parameters. I used the center circle and offset tool to make the circles and hole for the moveable lid later.</li>
+                        <li>Then extrude the front body sketch using the same thickness parameters. Make syure it is a new body.</li>
+                        <li>As you have noticed the front body does not have the tabs that were created on the base. In order for the front body to have the tabs, use the combine tool with the target body being the front and the tool body the base and remember to tick the keep tools option. Now your front body will have tabs.</li>
+                        <li>Follow the same steps as the front body to create the tabs for the height.</li>
+                    </ol>
+                </div>
+
+                <div class="Box-back">
+                    <h2>Back Body</h2>
+                    <ol>
+                        <li>To create back body similar to the front, using extrude tool start from the other end of the length side where the back will be and extrude the distance using Thickness parameter and make sure it is a new body.</li>
+                        <li>Using combine tool, target body is the base while tool body is the back to make tab at the base.</li>
+                    </ol>
+                </div>
+
+                <div class="Box-left">
+                    <h2>Left Body</h2>
+                    <ol>
+                        <li>Start with a new sketch on the left and start creating your left body using width and height parameters and then extrude the sketch using the same thickness parameters. Making sure it is a new body.</li>
+                        <li>Using the combine tool, target body the left body that you have just extruded while tool body is the rest of the other bodies to make the tabs on the left body.</li>
+                    </ol>
+                </div>
+
+                <div class="Box-right">
+                    <h2>Right Body</h2>
+                    <ol>
+                        <li>Using the extrude tool, to create the right body similar to the left body, start from the other end of the right side and extrude the distance using Thickness parameter and make sure it is a new body.</li>
+                        <li>Using combine tool, target body the base and tool body the newly created right body to make a tab for the right side of the base</li>
+                        <li>Using combine tool, target body the front and tool body the newlyy created right body to make a tab for the right side of the front</li>
+                        <li>Do the same for the back body.</li>
+                    </ol>
+
+                    <h3>Hole for Handle</h3>
+                    <ol>
+                        <li>To make the hole for the handle, I started a new sketch on the right body and using a 2 point rectangle, I made a rectangle using LHandle and WHandle parameters.</li>
+                        <li>Then extrude the rectangle to make a hole.</li>
+                    </ol>
+                </div>
+
+                
+
+
 
             </div>
         </div>
