@@ -48,19 +48,43 @@
             <div id="main-laser">
                 
                 <div class="general-info">
+                    <h2>What is Laser Cutting?</h2>
+
+                    <p>For this Laser Cutting assignment, we are tasked to make a musical box for the musical instrument and I came up with this for my musical box to have 2 lids.</p>
+                    
+                    <h2>What are the Kinds of cuts I used?</h2>
+                    <h3>Vector Cut</h3>
+                    <h3>Raster Engraving</h3>
+                    
+                    <h2>Laser Cuttng Quiz</h2>
+                    <p>But first we have to do a Laser Cutting Quiz and attend a practical test in order to be certified to use the laser cutter.</p>
+                    <div class="laser-cutting-quiz">
+                        <div class="attempts">
+                            <p>It took me about 6 attempts before i passed the quiz.</p>
+                            <img src="images/laser_images/laser_cutter_cert2.png" alt="parameters" class="heightimg-400px" >
+    
+                        </div>
+        
+                        <div class="pass-quiz"> 
+                            <img src="images/laser_images/laser_cutter_cert1.png" alt="parameters" class="heightimg-400px" >                           
+                        </div>
+    
+                    </div>
 
                 </div>
 
                 <div class="fusion-parameters">
                     <h2>Fusion360 Parameters</h2>
                     <p>Firstly I created parameters to set the measurements that I can easily use for later by calling the name of the parameter which makes changing the measurements easier to do.</p>
+                    <img src="images/laser_images/otherLaserCutting_images/New parameters.png" alt="parameters" class="heightimg-400px" >
+
                     <ul>
                         <li>Length, Width, Height and Thickness are the measurements for the size of the box and how thick the plywood is.</li>
                         <li>LSTab, WSTab and HSTab are the number of tabs that I want</li>
                         <li>LTabForm, WTabForm and HTabForm are the formulas to calculate the no. of tabs equally separated</li>
                         <li>LPattForm, WPattForm and HPattForm are the formulas for the distance of the rectangle pattern for the finger joints</li>
                         <li>LidInnerHole is the size of the inner hole at the front body for the moveable lid.</li>
-                        <li>LHandle and WHandle is the measurements for thee size of the hole for the handle to fit.</li>
+                        <li>LHandle and WHandle is the measurements for the size of the hole for the handle to fit.</li>
                     </ul>
                 </div>
 
@@ -68,10 +92,18 @@
                     <h2>Base Body</h2>
                     <ol>
                         <li>Starting with the base of the box I first made a box using the user parameters i put the length, width and heigh of the box.</li>
+                        <img src="images/laser_images/base_images/1 box thick.png" alt="box thick" class="heightimg-400px" >
                         <li>Create a new sketch and using a 2 point rectangle, draw the shape of the tab and using LTabForm and Thickness parameters. Use the sketch dimension to space out the tab.</li>
+                        <img src="images/laser_images/base_images/2 setting tabs.png" alt="sketch tab" class="heightimg-400px" >
                         <li>Using Extrude tool, cut the rectangle shape you made to make the tab.</li>
+                        <img src="images/laser_images/base_images/3 cut tab.png" alt="cut tab" class="heightimg-400px" >
                         <li>Then using the rectangular pattern, using the features type click on to the rectangle shape that you cut in Step 3 and select the direction that is highlighted in blue then use LPattForm which is the distance and quantity is LSTab parameters.</li>
+                        <img src="images/laser_images/base_images/4 pattern length.png" alt="pattern length" class="heightimg-350px" >
                         <li>Following the same steps from 1 to 4, do it on the width side of the base.</li>
+                        <img src="images/laser_images/base_images/5 cut wtab.png" alt="cut wtab" class="heightimg-350px" >
+                        <img src="images/laser_images/base_images/5 pattern width.png" alt="pattern width" class="heightimg-350px" >
+                        <img src="images/laser_images/base_images/5 setting wtab.png" alt="setting wtab" class="heightimg-300px" >
+
 
                     </ol>
                     
@@ -81,9 +113,17 @@
                     <h2>Front body</h2>
                     <ol>
                         <li>Now we will start sketching the front so place a new sketch infront of the tab and start creating your front body using your Length and Height parameters. I used the center circle and offset tool to make the circles and hole for the moveable lid later.</li>
+                        <img src="images/laser_images/front_images/1 new sketch.png" alt="new sketch" class="heightimg-400px" >
+                        <img src="images/laser_images/front_images/1 front side sketch.png" alt="front sketch" class="heightimg-400px" >
                         <li>Then extrude the front body sketch using the same thickness parameters. Make syure it is a new body.</li>
-                        <li>As you have noticed the front body does not have the tabs that were created on the base. In order for the front body to have the tabs, use the combine tool with the target body being the front and the tool body the base and remember to tick the keep tools option. Now your front body will have tabs.</li>
+                        <img src="images/laser_images/front_images/2 extrude.png" alt="extrude front" class="heightimg-400px" >
+                        <li>As you have noticed the front body does not have the tabs that were created on the base. In order for the front body to have the tabs, use the combine tool with the target body being the front and the tool body the base and remember to tick the keep tools option. Now your front body will have tabs.</li
+                        <img src="images/laser_images/front_images/3 combine.png" alt="combine for front" class="heightimg-400px" >
                         <li>Follow the same steps as the front body to create the tabs for the height.</li>
+                        <img src="images/laser_images/front_images/4 cut htab.png" alt="cut htab" class="heightimg-400px" >
+                        <img src="images/laser_images/front_images/4 pattern htab.png" alt="pattern htab" class="heightimg-400px" >
+                        <img src="images/laser_images/front_images/4 Setting htab.png" alt="setting htab" class="heightimg-400px" >
+
                     </ol>
                 </div>
 
@@ -91,7 +131,10 @@
                     <h2>Back Body</h2>
                     <ol>
                         <li>To create back body similar to the front, using extrude tool start from the other end of the length side where the back will be and extrude the distance using Thickness parameter and make sure it is a new body.</li>
+                        <img src="images/laser_images/back_images/1 extrude to back.png" alt="extrude to back" class="heightimg-400px" >
                         <li>Using combine tool, target body is the base while tool body is the back to make tab at the base.</li>
+                        <img src="images/laser_images/back_images/2 combine for base.png" alt="combine for base" class="heightimg-400px" >
+
                     </ol>
                 </div>
 
@@ -99,7 +142,11 @@
                     <h2>Left Body</h2>
                     <ol>
                         <li>Start with a new sketch on the left and start creating your left body using width and height parameters and then extrude the sketch using the same thickness parameters. Making sure it is a new body.</li>
+                        <img src="images/laser_images/left_images/1 left sketch.png" alt="left sketch" class="heightimg-400px" >
+                        <img src="images/laser_images/left_images/1 extrude thickness.png" alt="extrude left thickness" class="heightimg-400px" >
                         <li>Using the combine tool, target body the left body that you have just extruded while tool body is the rest of the other bodies to make the tabs on the left body.</li>
+                        <img src="images/laser_images/left_images/2 combine.png" alt="combine for left" class="heightimg-400px" >
+
                     </ol>
                 </div>
 
@@ -107,25 +154,99 @@
                     <h2>Right Body</h2>
                     <ol>
                         <li>Using the extrude tool, to create the right body similar to the left body, start from the other end of the right side and extrude the distance using Thickness parameter and make sure it is a new body.</li>
+                        <img src="images/laser_images/right_images/1 extrude.png" alt="extrude right" class="heightimg-400px" >
                         <li>Using combine tool, target body the base and tool body the newly created right body to make a tab for the right side of the base</li>
+                        <img src="images/laser_images/right_images/2 extrude for basee.png" alt="combine base" class="heightimg-400px" >
                         <li>Using combine tool, target body the front and tool body the newlyy created right body to make a tab for the right side of the front</li>
+                        <img src="images/laser_images/right_images/3 extrude for front.png" alt="combine front" class="heightimg-400px" >
                         <li>Do the same for the back body.</li>
+                        <img src="images/laser_images/right_images/4 extrude for back.png" alt="combine for back" class="heightimg-400px" >
+
                     </ol>
 
                     <h3>Hole for Handle</h3>
                     <ol>
                         <li>To make the hole for the handle, I started a new sketch on the right body and using a 2 point rectangle, I made a rectangle using LHandle and WHandle parameters.</li>
+                        <img src="images/laser_images/right_images/1 sketch for hole.png" alt="hole sketch" class="heightimg-400px" >
                         <li>Then extrude the rectangle to make a hole.</li>
+                        <img src="images/laser_images/right_images/2 extrude hole.png" alt="extrude hole" class="heightimg-400px" >
+
                     </ol>
                 </div>
 
                 <div class="Box-Lid">
+                    <h2>Box Lids</h2>
                     <ol>
                         <li>For the lid I made a box on top of the 4 side and extrude the height using the thickness parameter, make sure it is a new body. </li>
+                        <img src="images/laser_images/leftAndRightLid_images/1 make box.png" alt="make lid box" class="heightimg-400px" >
                         <li>Then I moved the box 1mm higher than what it was so that it wasn't merging with the other bodies.</li>
+                        <img src="images/laser_images/leftAndRightLid_images/2 move.png" alt="move lid" class="heightimg-400px" >
                         <li>Then I extrude the top part of the front and back body by 1mm so that when opening and closing the lid, the lid will close nicely.</li>
+                        <img src="images/laser_images/leftAndRightLid_images/3 extrude 1mm.png" alt="extrude 1mm for lid" class="heightimg-400px" >
                         <li>Then create a new sketch on the lid to be able to make some holes so that the lid will be able to move to open and close the lid.</li>
+                        <img src="images/laser_images/leftAndRightLid_images/4 sketch hole for lid.png" alt="sketch hole for lid" class="heightimg-400px" >
                         <li>Then extrude out the small boxes</li>
+                        <img src="images/laser_images/leftAndRightLid_images/5 extrude out the small box.png" alt="extrude small box" class="heightimg-400px" >
+                        <li>Next we will use a midplane under construct to find the mid plane on 2 sides of the lid (front & back)</li>
+                        <img src="images/laser_images/leftAndRightLid_images/6 midplane.png" alt="midplane" class="heightimg-300px" >
+                        <li>Using Mirror tool, I was able to mirror the same holes on the other side. Remember to hide the other bodies except the lid first. You can then hide the midplane after mirroring the holes on the other side.</li>
+                        <img src="images/laser_images/leftAndRightLid_images/7 mirror.png" alt="mirror" class="heightimg-400px" >
+                        <li>Using Fillet tool, fillet the edges of the hole handle</li>
+                        <img src="images/laser_images/leftAndRightLid_images/8 fillet.png" alt="fillet" class="heightimg-400px" >
+                        <li>Next I used the midplane again to find the midplane on 2 sides of the lid (left & right)</li>
+                        <img src="images/laser_images/leftAndRightLid_images/9 midplane.png" alt="midplane 2" class="heightimg-400px" >
+                        <li>Then we will spilt the lid by using the spilt body tool, remembering to hide the other bodies except the lid. You will now end up with 2 bodies a left lid and right lid.</li>
+                        <img src="images/laser_images/leftAndRightLid_images/10 spilt body.png" alt="spilt lids" class="heightimg-350px" >
+
+                    </ol>
+                </div>
+
+                <div class="Parts-dxf-file">
+                    <h2>How to Put Musical box parts into DXF file</h2>
+                    <ol>
+                        <li>Click the one side of the box and right click your mouse and select create sketch.</li>
+                        <li>Then right click the sketch you just created and select save as DXF.</li>
+                        <li>Do the same for the other sides</li>
+                    </ol>
+                </div>
+
+                <div class="box-inkscape">
+                    <h2>How to transfer DXF files into a SVG file for laser cutting</h2>
+                    <ol>
+                        <li>First create a new document and to rotate your page to make it landscape go to file > document properties > display > orientation.</li>
+                        <img src="images/laser_images/inkscape_images/1 document properties.png" alt="file document properties" class="heightimg-400px" >
+                        <img src="images/laser_images/inkscape_images/1 document properties2.png" alt="orientation" class="heightimg-400px" >
+                        <li>You can also go to zoom > zoom page to zoom in on the page.</li>
+                        <img src="images/laser_images/inkscape_images/2 zoom.png" alt="zoom" class="heightimg-400px" >
+                        <li>Next import your pieces into the document.</li>
+                        <img src="images/laser_images/inkscape_images/3 import file.png" alt="import files" class="heightimg-400px" >
+                        <img src="images/laser_images/inkscape_images/3 imported files.png" alt="imported files" class="heightimg-400px" >
+                        <li>Those pieces that you want to vector cut make sure the line width is hairline. You can find it under fill and stroke > Stroke Style > Width. Make sure the stroke color is RGB red.</li>
+                        <img src="images/laser_images/inkscape_images/4 vector cut settings.png" alt="vector cut" class="heightimg-400px" >
+                        <li>For engraving it can be any line width as long as it's not hairline and stroke color and fill is RGB green.</li>
+                        <img src="images/laser_images/inkscape_images/5 raster engrave settings.png" alt="raster engrave" class="heightimg-400px" >
+                        <li>I wanted to add text to my design and add some nice designs using these pictures.</li>
+                        <img src="images/laser_images/otherLaserCutting_images/music_note.png" alt="music_note 1" class="heightimg-270px" >
+                        <img src="images/laser_images/otherLaserCutting_images/music_note2.png" alt="music_note 2" class="heightimg-270px" >
+                        <img src="images/laser_images/otherLaserCutting_images/music_note4.png" alt="music_note 3" class="heightimg-270px" >
+                        <li>I then trace out the pictures and placed it onto the pieces that I want it to be engraved. Remember to remove the pictures after you finished tracing them out.</li>
+                        <li>I also group the different parts of my box (e.g. Right side, Left side etc.) so that they will all stick together.</li>
+                        <img src="images/laser_images/inkscape_images/8 group.png" alt="group" class="heightimg-400px" >
+                        <li>And there is my finished product ready to be laser cut!</li>
+                        <img src="images/laser_images/inkscape_images/9 new finished with color.png" alt="finished laser cut" class="heightimg-400px" >
+                    </ol>
+                </div>
+
+                <div class="box-after">
+                    <h2>After Laser Cutting</h2>
+                    <ol>
+                        <li>These are how the pieces look like after laser cutting</li>
+                        <img src="images/laser_images/otherLaserCutting_images/Laser cut box.png" alt="laser cut box pieces" class="heightimg-400px" >
+                        <li>I then used super glue to glue the side pieces and base together but I used hot glue to glue the musical instrument to the base.</li>
+                        <img src="images/laser_images/otherLaserCutting_images/complete box1.png" alt="complete 1" class="heightimg-400px" >
+                        <img src="images/laser_images/otherLaserCutting_images/complete box2.png" alt="complete 2" class="heightimg-400px" >
+
+
                     </ol>
                 </div>
 
