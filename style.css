@@ -110,8 +110,6 @@ li.dropdown-menu {
 }
 
 
-
-
 #footer {
     clear: both;
     padding: 10px;
@@ -123,6 +121,93 @@ li.dropdown-menu {
     font-weight: bold;
 }
 
+.about-ibox {
+  background-color: #EEB95D;
+  color: #f7fbfc;
+  border-radius: 10px;
+  height: 150px;
+  text-align: center;
+  font-size: 25px;
+  padding-top: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-bottom: 20px;
+}
+
+.about-underline {
+  font-size: 30px;
+  color: #f7fbfc;
+}
+
+.about-underline:hover {
+  color: #df9619;
+}
+
+.tools-ibox {
+  background-color: #BEA0EB;
+  color: #f7fbfc;
+  border-radius: 10px;
+  height: 150px;
+  text-align: center;
+  font-size: 25px;
+  padding-top: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-bottom: 20px;
+}
+
+.tools-underline {
+  font-size: 30px;
+  color: #f7fbfc;
+}
+
+.tools-underline:hover {
+  color: #6d26d8;
+}
+
+.projects-ibox {
+  background-color: #a5d4f1;
+  color: #f7fbfc;
+  border-radius: 10px;
+  height: 150px;
+  text-align: center;
+  font-size: 25px;
+  padding-top: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-bottom: 20px;
+}
+
+.projects-underline {
+  font-size: 30px;
+  color: #f7fbfc;
+}
+
+.projects-underline:hover {
+  color: #769fcd;
+}
+
+.final-ibox {
+  background-color: #F6B0BC;
+  color: #f7fbfc;
+  border-radius: 10px;
+  height: 150px;
+  text-align: center;
+  font-size: 25px;
+  padding-top: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-bottom: 20px;
+}
+
+.final-underline {
+  font-size: 30px;
+  color: #f7fbfc;
+}
+
+.final-underline:hover {
+  color: #e6576e;
+}
 
 
 /*IMG WIDTH AND HEIGHT SIZES*/
@@ -496,6 +581,7 @@ div.project-box:hover {
 
 div.project-box img {
   width: 100%;
+  height: 150px;
   border-radius: 10px 10px 10px 10px;
   box-sizing: border-box;
   
@@ -508,7 +594,7 @@ div.project-box img {
 
 div.project-des {
   box-sizing: border-box;
-  padding: 15px;
+  padding: 5px;
   text-align: center;
   color: #f7fbfc;
 }
