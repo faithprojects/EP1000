@@ -1406,7 +1406,10 @@ li a:hover, .dropdown-menu-final:hover .dropitem-final {
   font-size: 20px;
   position: fixed;
   padding-top: 20px;
+  font-weight: 600;
 }
+
+#nav-for-main a:hover {color: #a5d4f1;}
 
 #header-final {
   width: 790px;
@@ -1419,9 +1422,18 @@ li a:hover, .dropdown-menu-final:hover .dropitem-final {
 #main-final {
   width: 790px;
   float: right;
-  text-align: center;
+  text-align: left;
   font-family: 'K2D', sans-serif;
   font-size: 17px;
+}
+
+table {
+  width: 100%;
+  
+}
+
+tr {
+  height: 5px;
 }
 
 
