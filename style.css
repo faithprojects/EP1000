@@ -1446,5 +1446,17 @@ tr {
   height: 5px;
 }
 
+.idea-content {
+  display: grid;
+  grid-template-columns: auto auto ;
+  column-gap: 2px;
+  padding: 10px;
+}
+
+.idea-content > div {
+  
+  text-align: center;
+  padding: 20px ;
+}
 
 
