@@ -1427,9 +1427,19 @@ li a:hover, .dropdown-menu-final:hover .dropitem-final {
   font-size: 17px;
 }
 
+
+
 table {
   width: 100%;
   
+}
+
+td, th {
+  text-align: left;
+  padding: 8px;
+  border: 1px solid white;
+  border-collapse: collapse;
+  background-color:#b7dcf3;
 }
 
 tr {
