@@ -43,8 +43,14 @@
 
         <div id="content">
             <div id="nav-for-main">
-                <a href="#idea">My project Idea</a><br>
-                <a href="#materials">Materials needed</a>
+                <a href="#idea">My Project Idea</a><br>
+                <a href="#materials">Materials Needed</a>
+                <a href="#techniques">Fabrication Techniques</a>
+                <a href="#final-electronics">Materials Needed</a>
+                <a href="#Code-explanation">Materials Needed</a>
+                <a href="#materials">Materials Needed</a>
+
+
 
             </div>
 
@@ -161,9 +167,76 @@
                 </div>
 
                 <div id="final-electronics">
+                    <h2>Electronics</h2>
+                    <h3>Circuit diagram in TinkerCAD</h3>
+                    <p>I tested my circuit on TinkerCAD before using the actual components just to make sure it works and so that I don't accidentally burn the actual components. From the circuit diagram, the Din of the neopixel is connected to pin 8 and the 4 push buttons are connected to pins 7, 6, 5, 4 respectively.</p>
+                    <h3>Testing actual circuit</h3>
+                    <p>After testing my circuit in TinkerCAD I went on to translate it into the actual breadboard and it worked successfully. I then begin to solder the necessary components needed for my project like the buttons and the neopixel.</p>
+
+                    <p>For the buttons, I used 2 wires each for each button one for VCC (RED) and the other is GND or the  input (wire color is represented with the color of the button) that will be connected to the pins of the arduino later from the breadboard. I didn't have a hard time soldering it as it was quite an easy process.</p> 
+
+                    <p>For the neopixels, this was abit challenging to solder as I have never soldered neopixels before and afraid of putting too much heat on to the neopixel which might end up burning the neopixel. It took a long process as the wires I used were dupoint cables and had to take note which side the female and male dupoint cables are gonna be placed. The female and male dupoint cables are also of different lengths which I made the male dupoint cables longer than the female dupoint cables so that when trying to connect the cables one cable to another it would be able to reach to the other end of the cable and cable management later wont be too messy with too many long cables so I just had the male dupoints cables longer than female dupoint cables.</p> 
+                    
+                    <p>I messed up the neopixel a few times cuz I couldn't get the wire to solder on properly onto the neopixel strip and it would break off after I soldered it. It took a few tries but I managed to get 4 strips of neopixel soldered properly and using a heatshrink tubing to keep them in place. I have also used masking tape to line up the wires correctly so that I know which is the input, VCC and GND so that I don't accidentally short the wires when testing and indicated the GND using a black permanent marker so that is easy to identify.</p>
+                </div>
+
+                <div id="Code-explanation">
+                    <h2>Code Explained</h2>
 
                 </div>
 
+                <div id="cad-modeling">
+                    <h2>Fusion360: Testing pieces</h2>
+                    <h3>Slots & connectors</h3>
+                    <p>I test modelled a Slot and connector to see how well it would be able to slide in and out and lock together so that i could use the design to put into my Nanolight Box.</p>
+                    <h3>Screw Hole</h3>
+                    <p>I also tested the screw hole to make sure it was the right fit and able to screw in and out for the Nanolight Box too.</p>
+
+                    <h2>Fusion360: Nanolight box</h2>
+                    <p>Using Fusion360, I modelled the Nanolight box wheree the neopixels will be placed. It has 3 parts:</p>
+                    <ol>
+                        <li>Back lid: Which is where the neopixel will be attached to and where there is some cable management on the outside of the backlid there is also holes for the screw to be inserted later on when screwing it together with the box.</li>
+                        <li>Box: Where there are screw holes to be able to screw in the back lid and where three forths of the box will be using a transparent filament to be able to diffuse the light from the neopixels and the other one forth is using white fiament.</li>
+                        <li>Front lid: Where we will be using a translucent acrylic to help diffuse the light from the neopixels. Initally it is connected to the box but I decided to separate it because the print time was too long and it was a more reasonable to separate it from the Box.</li>
+                    </ol>
+
+                    <h2>Fusion360: Stand Box</h2>
+                    <p>Using fusion 360, I modelled the stand box which is where the buttons will be and where it will house the arduino and breadboard. One side of the box will have holes for the wire to connect to the breadboard and holes for the buttons and another side of the box will have a hole for to be able to connect the arduino to my power bank or my computer so that I can still edit code and power the arduino.</p>
+                </div>
+
+                <div id="final-3dprints">
+                    <h2>3D printing</h2>
+                    <p>I used my Ender 3 V2 printer at home to print the parts.</p>
+                    <h3>Testing Pieces prints</h3>
+                    <p>All the testing pieces came out successful and good to use which I then included it into the design of the Nanolight box before printing.</p>
+
+                    <h3>Nanolight Box</h3>
+                    <p>Here are the settings that I used:</p>
+                    <ul>
+                        <li>Infill: 10%</li>
+                        <li>Speed: 60mm/s</li>
+                    </ul>
+                    <p>My Home printer, the Ender 3 V2 printer was able to print the box halfway and be able to change filament so I first printed it in transparent filament which as it's printing turns into a translucent print and after it's done printing that, I changed the filament to white filament at the end of it where the screws are.</p>
+
+                    <p>Once the print was done, I tested out the screws to see if it would fit properly and be able to screw in without any breaking or it being too loose of a fit. But it was a good fit and the screws were able to hold themselves well.</p>
+
+                    <h3>Back Lid</h3>
+                    <p>Here are the settings that I used:</p>
+                    <ul>
+                        <li>Supports: On (Everywhere)</li>
+                        <li>Infill: 10%</li>
+                        <li>Speed: 60mm/s</li>
+                    </ul>
+                    <p>I had to reprint the lid 3 times before I got it right because the cable management bar was too brittle and thin and it kept breaking whenever I was trying to remove the supports. So I went back onto Fusion360 to make the bar thicker and finally on the third try it was strong enough to not break anymore.</p>
+
+                    <p>I ran out of light grey filament for one of the lids so I had to print it in a different grey color filament instead in school.</p>
+
+                    <h3>Connectors</h3>
+                </div>
+
+                <div id="">
+
+                </div>
             </div>
         </div>
 
