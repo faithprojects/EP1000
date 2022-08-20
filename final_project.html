@@ -50,7 +50,8 @@
                 <a href="#Code-explanation">Code Explained</a><br>
                 <a href="#cad-modeling">CAD Modelling</a><br>
                 <a href="#final-3dprints">3D Printing</a><br>
-                <a href="#final-lasercut">Laser Cutting</a>
+                <a href="#final-lasercut">Laser Cutting</a><br>
+                <a href="#assembly">Assembly of Product</a><br>
 
 
 
@@ -186,34 +187,34 @@
                     <h2>Electronics</h2>
                     <h3>Circuit diagram in TinkerCAD</h3>
                     <p>I tested my circuit on TinkerCAD before using the actual components just to make sure it works and so that I don't accidentally burn the actual components. From the circuit diagram, the Din of the neopixel is connected to pin 8 and the 4 push buttons are connected to pins 7, 6, 5, 4 respectively.</p>
-                    <img src="images/final_images/tinkercad_circuit.png" alt="code timer" class="heightimg-200px" >
+                    <img src="images/final_images/tinkercad_circuit.png" alt="circuit diagram" class="heightimg-200px" >
 
 
                     <h3>Testing actual circuit</h3>
                     <p>After testing my circuit in TinkerCAD I went on to translate it into the actual breadboard and it worked successfully. I then begin to solder the necessary components needed for my project like the buttons and the neopixel.</p>
-                    <img src="images/final_images/working_circuit.jpg" alt="study timer" class="heightimg-250px" >
+                    <img src="images/final_images/working_circuit.jpg" alt="working circuit" class="heightimg-250px" >
 
 
                     <p>For the buttons, I used 2 wires each for each button one for VCC (RED) and the other is GND or the  input (wire color is represented with the color of the button) that will be connected to the pins of the arduino later from the breadboard. I didn't have a hard time soldering it as it was quite an easy process.</p>
-                    <img src="images/final_images/solderedbuttons.jpg" alt="code timer" class="heightimg-250px" >
+                    <img src="images/final_images/solderedbuttons.jpg" alt="soldered Buttons" class="heightimg-250px" >
 
                     <p>For the neopixels, this was abit challenging to solder as I have never soldered neopixels before and afraid of putting too much heat on to the neopixel which might end up burning the neopixel. It took a long process as the wires I used were dupoint cables and had to take note which side the female and male dupoint cables are gonna be placed. The female and male dupoint cables are also of different lengths which I made the male dupoint cables longer than the female dupoint cables so that when trying to connect the cables one cable to another it would be able to reach to the other end of the cable and cable management later wont be too messy with too many long cables so I just had the male dupoints cables longer than female dupoint cables.</p> 
                     
                     <p>I messed up the neopixel a few times cuz I couldn't get the wire to solder on properly onto the neopixel strip and it would break off after I soldered it. It took a few tries but I managed to get 4 strips of neopixel soldered properly and using a heatshrink tubing to keep them in place. I have also used masking tape to line up the wires correctly so that I know which is the input, VCC and GND so that I don't accidentally short the wires when testing and indicated the GND using a black permanent marker so that is easy to identify.</p>
                     <p>Broken neopixel</p>
-                    <img src="images/final_images/brokenneopixel.jpg" alt="code timer" class="heightimg-350px" >
+                    <img src="images/final_images/brokenneopixel.jpg" alt="Broken neopixel" class="heightimg-350px" >
 
                     <div class="idea-content">
                         <div class="first-sketch">
                         
                             <p>Finished neopixels</p>
-                            <img src="images/final_images/solderedneopixels.jpg" alt="code timer" class="heightimg-250px" >
+                            <img src="images/final_images/solderedneopixels.jpg" alt="Soldered Neopixels" class="heightimg-250px" >
     
                         </div>
         
                         <div class="second-sketch">
                             <p>Black marker to indicate the GND</p>
-                            <img src="images/final_images/gndindicator_neopixel.jpg" alt="study timer" class="heightimg-250px" >
+                            <img src="images/final_images/gndindicator_neopixel.jpg" alt="GND Indicator neopixel" class="heightimg-250px" >
                             
                         </div>
     
@@ -245,13 +246,16 @@
 
                     <h2>Fusion360: Stand Box</h2>
                     <p>Using fusion 360, I modelled the stand box which is where the buttons will be and where it will house the arduino and breadboard. One side of the box will have holes for the wire to connect to the breadboard and holes for the buttons and another side of the box will have a hole for to be able to connect the arduino to my power bank or my computer so that I can still edit code and power the arduino.</p>
+
+                    <h2>(Add on) Fusion360: Connector Storage</h2>
+                    <p>So after assembing the stand box and printing the connectors, I realized that i dont have a storage space for the connectors to be placed if there are extra connectors or connectors that are unused so i modelled a very simple bracket that will later on be glued and placed inside the stand box at one corner.</p>
                 </div>
 
                 <div id="final-3dprints">
                     <h2>3D Printing</h2>
                     <h3>Testing Pieces prints</h3>
                     <p>All the testing pieces came out successful and good to use which I then included it into the design of the Nanolight box before printing.</p>
-                    <img src="images/final_images/testpieces.jpg" alt="code timer" class="heightimg-250px" >
+                    <img src="images/final_images/testpieces.jpg" alt="Test Pieces" class="heightimg-250px" >
 
 
                     <h3>Nanolight Box</h3>
@@ -260,9 +264,9 @@
                         <li>Infill: 10%</li>
                         <li>Speed: 60mm/s</li>
                     </ul>
-                    <p>My Home printer, the Ender 3 V2 printer was able to print the box halfway and be able to change filament so I first printed it in transparent filament which as it's printing turns into a translucent print and after it's done printing that, I changed the filament to white filament at the end of it where the screws are.</p>
+                    <p>My Home printer, the Ender 3 V2 printer was able to print the box halfway and be able to change filament so I first printed it in transparent filament which as it's printing turns into a translucent print and after it's done printing that, I changed the filament to white filament at the end of it where the screws are. I printed 4 Nanolight boxes.</p>
 
-                    <p>Once the print was done, I tested out the screws to see if it would fit properly and be able to screw in without any breaking or it being too loose of a fit. But it was a good fit and the screws were able to hold themselves well.</p>
+                    <p>Once the print was done, I tested out the screws to see if it would fit properly and be able to screw in without any breaking or it being too loose of a fit. But it was a good fit and the screws were able to hold themselves well and tight.</p>
 
                     <h3>Back Lid</h3>
                     <p>Here are the settings that I used:</p>
@@ -276,54 +280,136 @@
                         <div class="first-sketch">
                         
                             <p>Broken Back lid</p>
-                            <img src="images/final_images/brokenbacklid.jpg" alt="code timer" class="heightimg-250px" >
+                            <img src="images/final_images/brokenbacklid.jpg" alt="Broken Back Lid" class="heightimg-250px" >
     
                         </div>
         
                         <div class="second-sketch">
                             <p>3 different versions of failed Back lid prints</p>
-                            <img src="images/final_images/failed_backlids.jpg" alt="study timer" class="heightimg-250px" >
+                            <img src="images/final_images/failed_backlids.jpg" alt="3 Failed Back Lids" class="heightimg-250px" >
                             
                         </div>
     
                     </div>
 
                     <p>I ran out of light grey filament for one of the lids so I had to print it in a different grey color filament instead in school.</p>
-                    <img src="images/final_images/backlid_finish.jpg" alt="code timer" class="heightimg-250px" >
+                    <img src="images/final_images/backlid_finish.jpg" alt="Finished Back Lids" class="heightimg-250px" >
 
 
                     <h3>Connectors</h3>
+                    <p>Here are the settings that I used:</p>
+                    <ul>
+                        <li>Infill: 10%</li>
+                        <li>Speed: 60mm/s</li>
+                    </ul>
+                    <p>After the successful test prints of the connectors, I went back to fusion, and made the connectors abit longer about 35mm long to be able to hold the boxes better when they are stacked or combined. I printed 4 connectors but you can print more depending on how many Nanolight boxes you have.</p>
+                    <img src="images/final_images/connectors_finish.jpg" alt="Finished Connectors" class="heightimg-300px" >
+
+
+                    <h3>Connector Storage</h3>
+                    <p>Here are the settings that I used:</p>
+                    <ul>
+                        <li>Infill: 10%</li>
+                        <li>Speed: 60mm/s</li>
+                    </ul>
+                    <p>The Connector Storage turned out great.</p>
+                    <img src="images/final_images/connectorstorage_finish.jpg" alt="Finished Connectors Storage" class="heightimg-300px" >
+
                 </div>
 
                 <div id="final-lasercut">
                     <h2>Laser Cutting</h2>
                     <h3>Stand Box</h3>
                     <p>I managed to successfully cut my stand box only to realized that I used 4mm plywood instead of 3mm plywood but I'm okay with it because it is still able to piece together using superglue and it still works.</p>
-                    <img src="images/final_images/lasercut_finish.jpg" alt="code timer" class="heightimg-300px" >
+                    <img src="images/final_images/lasercut_finish.jpg" alt="Finished Stand Box Laser Cut" class="heightimg-300px" >
 
 
                     <h3>Front Lid</h3>
                     <p>Using a translucent 3mm acrylic to cut the front lids which will be used to diffuse the nanolights which works perfectly and diffusing alot of the neopixel lights.</p>
-                    <img src="images/final_images/acrylic_finish.jpg" alt="code timer" class="heightimg-250px" >
+                    <img src="images/final_images/acrylic_finish.jpg" alt="Finished Front Acrylic lid" class="heightimg-250px" >
                     <div class="idea-content">
                         <div class="first-sketch">
                         
                             <p>Frosted acrylic</p>
-                            <img src="images/final_images/acrylic_translucent.jpg" alt="code timer" class="heightimg-250px" >
+                            <img src="images/final_images/acrylic_translucent.jpg" alt="Frosted Acrylic" class="heightimg-250px" >
     
                         </div>
         
                         <div class="second-sketch">
                             <p>Acrylic is able to diffuse the light well</p>
-                            <img src="images/final_images/lighttest_acrylic.jpg" alt="study timer" class="heightimg-250px" >
+                            <img src="images/final_images/lighttest_acrylic.jpg" alt="Diffusing acrylic" class="heightimg-250px" >
+                            
+                        </div>
+    
+                    </div>
+                </div>
+
+                <div id="assembly">
+                    <h2>Assembly of Product</h2>
+                    <h3>Stand Box</h3>
+                    <p>I used super glue to glue all the laser cut plywood pieces together. The top is kept open and not glued so that I can easily fixed the wires whenever I need to.</p>
+
+                    <div class="idea-content">
+                        <div class="first-sketch">
+                        
+                            <p>Starting with the front side and right side making sure the front is showing the name of the project.</p>
+                            <img src="images/final_images/assembing_standbox1.jpg" alt="Assemble Stand Box 1" class="heightimg-250px" >
+    
+                        </div>
+        
+                        <div class="second-sketch">
+                            <p>Afterwards I glue on the left side and back making sure the back is the hole for the arduino and the left side is where all the buttons are placed.</p>
+                            <img src="images/final_images/assembing_standbox2.jpg" alt="Assemble Stand Box 2" class="heightimg-250px" >
+                            
+                        </div>
+    
+                    </div>
+                        
+                    <p>I then super glued the connectors storage to the bottom right corner of the stand box. Then I let everything to dry for awhile to make sure everything is properly intacted.</p>
+                    <img src="images/final_images/assembing_connectorstorage.jpg" alt="Assemble Connector Storage" class="heightimg-250px" >
+
+
+                    <p>This is the finished look of the stand box.</p>
+                    <div class="idea-content">
+                        <div class="first-sketch">
+                        
+                            <p>Front of the Stand Box</p>
+                            <img src="images/final_images/assembing_standbox3.jpg" alt="Final look of Stand Box 1" class="heightimg-250px" >
+    
+                        </div>
+        
+                        <div class="second-sketch">
+                            <p>Back of the Stand Box</p>
+                            <img src="images/final_images/assembing_standbox4.jpg" alt="Final look of Stand Box 2" class="heightimg-250px" >
                             
                         </div>
     
                     </div>
 
-                    
+                    <h3>Back Lid of Nanolight Box</h3>
+                    <p>I used double sided tape to tape the neopixels onto the back lid making sure that the male cables are on the left side and female cables are on the right side and making sure the plastic tubing of the neopixel is properly centered.</p>
+                    <div class="idea-content">
+                        <div class="first-sketch">
+                            <img src="images/final_images/assembing_neopixel1.jpg" alt="Assemble Neopixel 1" class="heightimg-250px" >
+    
+                        </div>
+        
+                        <div class="second-sketch">
+                            <img src="images/final_images/assembing_neopixel2.jpg" alt="Assemble Neopixel 2" class="heightimg-250px" >
+                            
+                        </div>
+    
+                    </div>
+
+                    <h3>Nanolight Box</h3>
+                    <p>I first tested one box to put the acrylic together with the box using 90 min epoxy glue for a stronger bond and to see if it has any reaction to epoxy glue as i have never used epoxy with acrylic before. I first sanded the surfaces for a better bond on the acrylic and box and clean the dust away. then i mixed the 2 part epoxy and quickly applied onto the box as the epoxy has a working time of 3-4mins. then i placed the acrylic on top of the 3d printed box making sure that the acrylic is aligned with the box, this was a tough process as the acrylic kept sliding around and it was abit messy to try and align it together.</p>
+
+                    <h3>Box Screws</h3>
+
+                    <h3>Connecting the wires</h3>
 
                 </div>
+
             </div>
         </div>
 
