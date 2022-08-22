@@ -71,14 +71,14 @@
                     <p>But after seeking advice from Mr Willie, I decided to change it up to make it more to motivation for studying and productivity for students instead of coding for engineering students. I have also changed the design to make a nanoleaf inspired study timer using each nanolight blocks as the progress bar of the day the nanolight blocks are modular so you are able to move it around to make different patterns and are all connected by small connectors and displaying colorful lights using the neopixels while the push buttons are preset timings for how long do you want to study for the day and a reset button.</p>
 
                     <div class="idea-content">
-                        <div class="first-sketch">
+                        <div class="idea-images">
                         
                             <p>First sketch I made for the coding timer</p>
                             <img src="images/final_images/codetimer_sketch.jpg" alt="code timer" class="heightimg-250px" >
     
                         </div>
         
-                        <div class="second-sketch">
+                        <div class="idea-images2">
                             <p>Second and final sketch I made for the study timer</p>
                             <img src="images/final_images/studytimer_sketch.jpg" alt="study timer" class="heightimg-250px" >
                             
@@ -213,14 +213,14 @@
                     <img src="images/final_images/brokenneopixel.jpg" alt="Broken neopixel" class="heightimg-350px" >
 
                     <div class="idea-content">
-                        <div class="first-sketch">
+                        <div class="idea-images">
                         
                             <p>Finished neopixels</p>
                             <img src="images/final_images/solderedneopixels.jpg" alt="Soldered Neopixels" class="heightimg-250px" >
     
                         </div>
         
-                        <div class="second-sketch">
+                        <div class="idea-images2">
                             <p>Black marker to indicate the GND</p>
                             <img src="images/final_images/gndindicator_neopixel.jpg" alt="GND Indicator neopixel" class="heightimg-250px" >
                             
@@ -235,20 +235,20 @@
                 <!--CODE EXPLAINED-->
                 <div id="Code-explanation">
                     <h2>Code Explained</h2>
-                    <p><span>Line 1:</span>Include the library of adafruit neopixel if not the neopixels will not work</p>
-                    <p><span>Line 2 to 6:</span>Declaring what pins are the buttons connected to on the arduino board</p>
-                    <p><span>Line 8 to 22:</span>Intializing the integer of the last button pressed and current button pressed for all the buttons</p>
-                    <p><span>Line 24 to 25:</span>Declaring what pin is the neopixel connected to and how many LEDS are on the neopixel</p>
-                    <p><span>Line 27:</span>Integer i starts at 0 for the progress bar of the LEDs to light up later on</p>
+                    <p><span>Line 1:</span> Include the library of adafruit neopixel if not the neopixels will not work</p>
+                    <p><span>Line 2 to 6:</span> Declaring what pins are the buttons connected to on the arduino board</p>
+                    <p><span>Line 8 to 22:</span> Intializing the integer of the last button pressed and current button pressed for all the buttons</p>
+                    <p><span>Line 24 to 25:</span> Declaring what pin is the neopixel connected to and how many LEDS are on the neopixel</p>
+                    <p><span>Line 27:</span> Integer i starts at 0 for the progress bar of the LEDs to light up later on</p>
                     <p><span>Line 45 to 59:</span></p>
-                    <p><span>Line 62 to 93:</span>They have the same if else functions to each of the statements that i will increment by 3 every time the preset timer buttons are pressed. The 4 statments after each of the i += 3 lines are the functions which will be explained later</p>
-                    <p><span>Line 95 to 102:</span>When the reset button is triggered, it will make i become 0 again and clear all leds</p>
+                    <p><span>Line 62 to 93:</span> They have the same if else functions to each of the statements that i will increment by 3 every time the preset timer buttons are pressed. The 4 statments after each of the i += 3 lines are the functions which will be explained later</p>
+                    <p><span>Line 95 to 102:</span> When the reset button is triggered, it will make i become 0 again and clear all leds</p>
                     <h3>FUNCTIONS</h3>
-                    <p><span>startlight:</span>this function will be called first to show a full bar of green leds for one sec to indicate the start of the timer</p>
-                    <p><span>timer1, timer2, timer3:</span>these are the preset timers for each button (e.g. 30min, 1hr, 2hr)</p>
-                    <p><span>runninglights:</span>when the timer is up, the running lights function will be called and will show a purple and pink running light sequence showing that the timer is finished</p>
-                    <p><span>timer1_color, timer2_color, timer3_color: </span>these are the different progress colors that will be shown after the running lights function. Depending on what preset timer button that you pressed, it will show a different color.</p>
-                    <img src="images/final_images/code.png" alt="Arduino Code" class="heightimg-350px" >
+                    <p><span>startlight:</span> This function will be called first to show a full bar of green leds for one sec to indicate the start of the timer</p>
+                    <p><span>timer1, timer2, timer3:</span> These are the preset timers for each button (e.g. 30min, 1hr, 2hr)</p>
+                    <p><span>runninglights:</span> When the timer is up, the running lights function will be called and will show a purple and pink running light sequence showing that the timer is finished</p>
+                    <p><span>timer1_color, timer2_color, timer3_color: </span> These are the different progress colors that will be shown after the running lights function. Depending on what preset timer button that you pressed, it will show a different color.</p>
+                    <img src="images/final_images/code.png" alt="Arduino Code" class="widthimg-700px" >
 
                 </div>
 
@@ -260,13 +260,13 @@
                     <h3>Slots & connectors</h3>
                     <p>I test modelled a Slot and connector to see how well it would be able to slide in and out and lock together so that i could use the design to put into my Nanolight Box.</p>
                     <div class="idea-content">
-                        <div class="first-sketch">
+                        <div class="idea-images">
                         
-                            <img src="images/final_images/test slot piece_heroshot.jpg" alt="GND Indicator neopixel" class="heightimg-250px" >
+                            <img src="images/final_images/test slot piece_heroshot.jpg" alt="test piece" class="heightimg-250px" >
     
                         </div>
         
-                        <div class="second-sketch">
+                        <div class="idea-images2">
                             
                             
                         </div>
@@ -275,13 +275,13 @@
                     <h3>Screw Hole</h3>
                     <p>I also tested the screw hole to make sure it was the right fit and able to screw in and out for the Nanolight Box too.</p>
                     <div class="idea-content">
-                        <div class="first-sketch">
+                        <div class="idea-images">
                         
-                            <img src="images/final_images/Screw test_heroshot.jpg" alt="GND Indicator neopixel" class="heightimg-250px" >
+                            <img src="images/final_images/Screw test_heroshot.jpg" alt="screw test" class="heightimg-250px" >
     
                         </div>
         
-                        <div class="second-sketch">
+                        <div class="idea-images2">
                             
                             
                         </div>
@@ -293,13 +293,13 @@
                     <ol>
                         <li>Back lid: Which is where the neopixel will be attached to and where there is some cable management on the outside of the backlid there is also holes for the screw to be inserted later on when screwing it together with the box.</li>
                         <div class="idea-content">
-                            <div class="first-sketch">
+                            <div class="idea-images">
                             
-                                <img src="images/final_images/back lid_heroshot.jpg" alt="GND Indicator neopixel" class="heightimg-250px" >
+                                <img src="images/final_images/back lid_heroshot.jpg" alt="back lid" class="heightimg-250px" >
         
                             </div>
             
-                            <div class="second-sketch">
+                            <div class="idea-images2">
                                 
                                 
                             </div>
@@ -307,13 +307,13 @@
                         </div>
                         <li>Box: Where there are screw holes to be able to screw in the back lid and where three forths of the box will be using a transparent filament to be able to diffuse the light from the neopixels and the other one forth is using white fiament.</li>
                         <div class="idea-content">
-                            <div class="first-sketch">
+                            <div class="idea-images">
                             
-                                <img src="images/final_images/Nanolight box_heroshot.jpg" alt="GND Indicator neopixel" class="heightimg-250px" >
+                                <img src="images/final_images/Nanolight box_heroshot.jpg" alt="nanolight box" class="heightimg-250px" >
         
                             </div>
             
-                            <div class="second-sketch">
+                            <div class="idea-images2">
                                 
                                 
                             </div>
@@ -321,13 +321,13 @@
                         </div>
                         <li>Front lid: Where we will be using a translucent acrylic to help diffuse the light from the neopixels. Initally it is connected to the box but I decided to separate it because the print time was too long and it was a more reasonable to separate it from the Box.</li>
                         <div class="idea-content">
-                            <div class="first-sketch">
+                            <div class="idea-images">
                             
-                                <img src="images/final_images/front lid acrylic_heroshot.jpg" alt="GND Indicator neopixel" class="heightimg-250px" >
+                                <img src="images/final_images/front lid acrylic_heroshot.jpg" alt="front lid acrylic" class="heightimg-250px" >
         
                             </div>
             
-                            <div class="second-sketch">
+                            <div class="idea-images2">
                                 
                                 
                             </div>
@@ -338,30 +338,29 @@
                     <h2>Fusion360: Stand Box</h2>
                     <p>Using fusion 360, I modelled the stand box which is where the buttons will be and where it will house the arduino and breadboard. One side of the box will have holes for the wire to connect to the breadboard and holes for the buttons and another side of the box will have a hole for to be able to connect the arduino to my power bank or my computer so that I can still edit code and power the arduino.</p>
                     <div class="idea-content">
-                        <div class="first-sketch">
+                        <div class="idea-images">
                         
-                            <img src="images/final_images/stand box_heroshot.jpg" alt="GND Indicator neopixel" class="heightimg-250px" >
+                            <img src="images/final_images/stand box_heroshot.jpg" alt="stand box" class="heightimg-250px" >
     
                         </div>
         
-                        <div class="second-sketch">
+                        <div class="idea-images2">
                             
                             
                         </div>
     
                     </div>
-                    <img src="images/final_images/stand box_heroshot.jpg" alt="GND Indicator neopixel" class="heightimg-250px" >
 
                     <h2>Fusion360: Arduino and Breadboard Holders</h2>
                     <p>Using Fusion360, I modelled some small L shaped brackets to hold the arduino and breadboard in place inside the stand box.</p>
                     <div class="idea-content">
-                        <div class="first-sketch">
+                        <div class="idea-images">
                         
                             
     
                         </div>
         
-                        <div class="second-sketch">
+                        <div class="idea-images2">
                             
                             
                         </div>
@@ -371,13 +370,13 @@
                     <h2>(Add on) Fusion360: Connector Storage</h2>
                     <p>So after assembing the stand box and printing the connectors, I realized that i dont have a storage space for the connectors to be placed if there are extra connectors or connectors that are unused so i modelled a very simple bracket that will later on be glued and placed inside the stand box at one corner.</p>
                     <div class="idea-content">
-                        <div class="first-sketch">
+                        <div class="idea-images">
                         
-                            <img src="images/final_images/connector storage_heroshot.jpg" alt="GND Indicator neopixel" class="heightimg-250px" >
+                            <img src="images/final_images/connector storage_heroshot.jpg" alt="connector storage" class="heightimg-250px" >
     
                         </div>
         
-                        <div class="second-sketch">
+                        <div class="idea-images2">
                             
                             
                         </div>
@@ -401,10 +400,10 @@
                         <li>Speed: 60mm/s</li>
                     </ul>
                     <p>My Home printer, the Ender 3 V2 printer was able to print the box halfway and be able to change filament so I first printed it in transparent filament which as it's printing turns into a translucent print and after it's done printing that, I changed the filament to white filament at the end of it where the screws are. I printed 4 Nanolight boxes.</p>
-                    <img src="images/final_images/nanolight box_finish.jpg" alt="GND Indicator neopixel" class="heightimg-250px" >
+                    <img src="images/final_images/nanolight box_finish.jpg" alt="Finished nanolight box" class="heightimg-250px" >
 
                     <p>Once the print was done, I tested out the screws to see if it would fit properly and be able to screw in without any breaking or it being too loose of a fit. But it was a good fit and the screws were able to hold themselves well and tight.</p>
-                    <img src="images/final_images/screwbox_test.jpg" alt="GND Indicator neopixel" class="heightimg-250px" >
+                    <img src="images/final_images/screwbox_test.jpg" alt="screwbox test" class="heightimg-250px" >
 
                     <h3>Back Lid</h3>
                     <p>Here are the settings that I used:</p>
@@ -415,14 +414,14 @@
                     </ul>
                     <p>I had to reprint the lid 3 times before I got it right because the cable management bar was too brittle and thin and it kept breaking whenever I was trying to remove the supports.I also forgot to make the thickness where the screw holes are abit thinner as they were too tall for the screw to fit and it wont be able to screw together with the nanolight box. So I went back onto Fusion360 to make the bar thicker and fix the thickness and finally on the third try it was strong enough to not break anymore and it was the right thickness.</p>
                     <div class="idea-content">
-                        <div class="first-sketch">
+                        <div class="idea-images">
                         
                             <p>Broken Back lid</p>
                             <img src="images/final_images/brokenbacklid.jpg" alt="Broken Back Lid" class="heightimg-250px" >
     
                         </div>
         
-                        <div class="second-sketch">
+                        <div class="idea-images2">
                             <p>3 different versions of failed Back lid prints</p>
                             <img src="images/final_images/failed_backlids.jpg" alt="3 Failed Back Lids" class="heightimg-250px" >
                             
@@ -462,7 +461,7 @@
                         <li>Speed: 60mm/s</li>
                     </ul>
                     <p>The holders turned out great.</p>
-                    <img src="images/final_images/holders_finish.jpg" alt="Finished Connectors Storage" class="heightimg-300px" >
+                    <img src="images/final_images/holders_finish.jpg" alt="Finished holders" class="heightimg-300px" >
 
                 </div>
 
@@ -479,14 +478,14 @@
                     <p>Using a translucent 3mm acrylic to cut the front lids which will be used to diffuse the nanolights which works perfectly and diffusing alot of the neopixel lights.</p>
                     <img src="images/final_images/acrylic_finish.jpg" alt="Finished Front Acrylic lid" class="heightimg-250px" >
                     <div class="idea-content">
-                        <div class="first-sketch">
+                        <div class="idea-images">
                         
                             <p>Frosted acrylic</p>
                             <img src="images/final_images/acrylic_translucent.jpg" alt="Frosted Acrylic" class="heightimg-250px" >
     
                         </div>
         
-                        <div class="second-sketch">
+                        <div class="idea-images2">
                             <p>Acrylic is able to diffuse the light well</p>
                             <img src="images/final_images/lighttest_acrylic.jpg" alt="Diffusing acrylic" class="heightimg-250px" >
                             
@@ -503,14 +502,14 @@
                     <p>I used super glue to glue all the laser cut plywood pieces together. The top is kept open and not glued so that I can easily fixed the wires whenever I need to.</p>
 
                     <div class="idea-content">
-                        <div class="first-sketch">
+                        <div class="idea-images">
                         
                             <p>Starting with the front side and right side making sure the front is showing the name of the project.</p>
                             <img src="images/final_images/assembing_standbox1.jpg" alt="Assemble Stand Box 1" class="heightimg-250px" >
     
                         </div>
         
-                        <div class="second-sketch">
+                        <div class="idea-images2">
                             <p>Afterwards I glue on the left side and back making sure the back is the hole for the arduino and the left side is where all the buttons are placed.</p>
                             <img src="images/final_images/assembing_standbox2.jpg" alt="Assemble Stand Box 2" class="heightimg-250px" >
                             
@@ -524,14 +523,14 @@
 
                     <p>This is the finished look of the stand box.</p>
                     <div class="idea-content">
-                        <div class="first-sketch">
+                        <div class="idea-images">
                         
                             <p>Front of the Stand Box</p>
                             <img src="images/final_images/assembing_standbox3.jpg" alt="Final look of Stand Box 1" class="heightimg-250px" >
     
                         </div>
         
-                        <div class="second-sketch">
+                        <div class="idea-images2">
                             <p>Back of the Stand Box</p>
                             <img src="images/final_images/assembing_standbox4.jpg" alt="Final look of Stand Box 2" class="heightimg-250px" >
                             
@@ -542,12 +541,12 @@
                     <h3>Back Lid of Nanolight Box</h3>
                     <p>I used double sided tape to tape the neopixels onto the back lid making sure that the male cables are on the left side and female cables are on the right side and making sure the plastic tubing of the neopixel is properly centered.</p>
                     <div class="idea-content">
-                        <div class="first-sketch">
+                        <div class="idea-images">
                             <img src="images/final_images/assembing_neopixel1.jpg" alt="Assemble Neopixel 1" class="heightimg-250px" >
     
                         </div>
         
-                        <div class="second-sketch">
+                        <div class="idea-images2">
                             <img src="images/final_images/assembing_neopixel2.jpg" alt="Assemble Neopixel 2" class="heightimg-250px" >
                             
                         </div>
@@ -555,36 +554,36 @@
                     </div>
 
                     <h3>Nanolight Box</h3>
-                    <p>I first tested one box to put the acrylic together with the box using 90 min epoxy glue for a stronger bond and to see if it has any reaction to epoxy glue as i have never used epoxy with acrylic before. I first sanded the surfaces for a better bond on the acrylic and box and clean the dust away. then i mixed the 2 part epoxy and quickly applied onto the box as the epoxy has a working time of 3-4mins. then i placed the acrylic on top of the 3d printed box making sure that the acrylic is aligned with the box, this was a tough process as the acrylic kept sliding around and it was abit messy to try and align it together.</p>
+                    <p>I first tested one box to put the acrylic together with the box using 90 min epoxy glue for a stronger bond and to see if it has any reaction to epoxy glue as I have never used epoxy with acrylic before. I first sanded the surfaces for a better bond on the acrylic and box and clean the dust away. then I mixed the 2 part epoxy and quickly applied onto the box as the epoxy has a working time of 3-4mins. Then I placed the acrylic on top of the 3d printed box making sure that the acrylic is aligned with the box, this was a tough process as the acrylic kept sliding around and it was abit messy to try and align it together.</p>
                     <div class="idea-content">
-                        <div class="first-sketch">
+                        <div class="idea-images">
                             <p>Epoxy glue that I used to put the acrylic and nanolight box togther.</p>
-                            <img src="images/final_images/epoxyglue.jpg" alt="Assemble Neopixel 1" class="heightimg-250px" >
+                            <img src="images/final_images/epoxyglue.jpg" alt="Epoxy glue" class="heightimg-250px" >
     
                         </div>
         
-                        <div class="second-sketch">
+                        <div class="idea-images2">
                             <p>Sanded the acrylic and Nanolight box</p>
-                            <img src="images/final_images/assembing_nanolight box1.jpg" alt="Assemble Neopixel 2" class="heightimg-250px" >
+                            <img src="images/final_images/assembing_nanolight box1.jpg" alt="Assemble nanolight box 1" class="heightimg-250px" >
                             
                         </div>
-                        <div class="first-sketch">
+                        <div class="idea-images">
                             <p>Putting epoxy glue onto it</p>
-                            <img src="images/final_images/assembing_nanolight box2.jpg" alt="Assemble Neopixel 1" class="heightimg-250px" >
+                            <img src="images/final_images/assembing_nanolight box2.jpg" alt="Assemble nanolight box 2" class="heightimg-250px" >
     
                         </div>
     
                     </div>
 
-                    <p>After letting it dry overnight, the first box worked and the epoxy was strong enough to hold it together so i decided to do the same for the other 3 boxes and assembled them the same way i assembled the first box.</p>
+                    <p>After letting it dry overnight, the first box worked and the epoxy was strong enough to hold it together so I decided to do the same for the other 3 boxes and assembled them the same way I assembled the first box.</p>
                     <div class="idea-content">
-                        <div class="first-sketch">
+                        <div class="idea-images">
                             <p>First box finished</p>
-                            <img src="images/final_images/assembing_nanolight box3.jpg" alt="Assemble Neopixel 1" class="heightimg-250px" >
+                            <img src="images/final_images/assembing_nanolight box3.jpg" alt="Assemble nanolight box 3" class="heightimg-250px" >
     
                         </div>
         
-                        <div class="second-sketch">
+                        <div class="idea-images2">
                             <p>All nanolights are dried and finished</p>
                             
                         </div>
@@ -595,13 +594,13 @@
                     <h3>Box Screws</h3>
                     <p>I used 4 screws to attach the back lid to the box with the help of a screwdriver to help screw them in.</p>
                     <div class="idea-content">
-                        <div class="first-sketch">
-                            <img src="images/final_images/assembing_screws1.jpg" alt="Assemble Neopixel 1" class="heightimg-250px" >
+                        <div class="idea-images">
+                            <img src="images/final_images/assembing_screws1.jpg" alt="Assemble screws 1" class="heightimg-250px" >
     
                         </div>
         
-                        <div class="second-sketch">
-                            <img src="images/final_images/assembing_screws2.jpg" alt="Assemble Neopixel 2" class="heightimg-250px" >
+                        <div class="idea-images2">
+                            <img src="images/final_images/assembing_screws2.jpg" alt="Assemble screws 2" class="heightimg-250px" >
                             
                         </div>
     
@@ -610,28 +609,28 @@
                     <h3>Connecting the wires</h3>
 
                     <h3>Electronics in the Stand Box</h3>
-                    <p>I first stick on the arduino and breadboardd holders to hold the arduino and breadboard in the stand box using super glue. This was a quick process and the holders were holding the arduino and breadboard well.</p>
+                    <p>I first stick on the arduino and breadboard holders to hold the arduino and breadboard in the stand box using super glue. This was a quick process and the holders were holding the arduino and breadboard well.</p>
                     <div class="idea-content">
-                        <div class="first-sketch">
+                        <div class="idea-images">
                             <p>Attaching arduino holders</p>
-                            <img src="images/final_images/assembing_holder1.jpg" alt="Assemble Neopixel 1" class="heightimg-250px" >
+                            <img src="images/final_images/assembing_holder1.jpg" alt="Assemble holder 1" class="heightimg-250px" >
     
                         </div>
         
-                        <div class="second-sketch">
+                        <div class="idea-images2">
                             <p>Attaching breadboard holders</p>
-                            <img src="images/final_images/assembing_holder2.jpg" alt="Assemble Neopixel 2" class="heightimg-250px" >
+                            <img src="images/final_images/assembing_holder2.jpg" alt="Assemble holder 2" class="heightimg-250px" >
                             
                         </div>
 
-                        <div class="first-sketch">
-                            <img src="images/final_images/assembing_holder3.jpg" alt="Assemble Neopixel 1" class="heightimg-250px" >
+                        <div class="idea-images">
+                            <img src="images/final_images/assembing_holder3.jpg" alt="Assemble holder 3" class="heightimg-250px" >
     
                         </div>
         
-                        <div class="second-sketch">
+                        <div class="idea-images2">
                             <p>Finished holders assembled</p>
-                            <img src="images/final_images/assembing_holder4.jpg" alt="Assemble Neopixel 2" class="heightimg-250px" >
+                            <img src="images/final_images/assembing_holder4.jpg" alt="Assemble holder 4" class="heightimg-250px" >
                             
                         </div>
     
