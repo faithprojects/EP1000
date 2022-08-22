@@ -235,7 +235,20 @@
                 <!--CODE EXPLAINED-->
                 <div id="Code-explanation">
                     <h2>Code Explained</h2>
-                    <img src="images/final_images/code.png" alt="Arduino Code" class="heightimg-250px" >
+                    <p><span>Line 1:</span>Include the library of adafruit neopixel if not the neopixels will not work</p>
+                    <p><span>Line 2 to 6:</span>Declaring what pins are the buttons connected to on the arduino board</p>
+                    <p><span>Line 8 to 22:</span>Intializing the integer of the last button pressed and current button pressed for all the buttons</p>
+                    <p><span>Line 24 to 25:</span>Declaring what pin is the neopixel connected to and how many LEDS are on the neopixel</p>
+                    <p><span>Line 27:</span>Integer i starts at 0 for the progress bar of the LEDs to light up later on</p>
+                    <p><span>Line 45 to 59:</span></p>
+                    <p><span>Line 62 to 93:</span>They have the same if else functions to each of the statements that i will increment by 3 every time the preset timer buttons are pressed. The 4 statments after each of the i += 3 lines are the functions which will be explained later</p>
+                    <p><span>Line 95 to 102:</span>When the reset button is triggered, it will make i become 0 again and clear all leds</p>
+                    <h3>FUNCTIONS</h3>
+                    <p><span>startlight:</span>this function will be called first to show a full bar of green leds for one sec to indicate the start of the timer</p>
+                    <p><span>timer1, timer2, timer3:</span>these are the preset timers for each button (e.g. 30min, 1hr, 2hr)</p>
+                    <p><span>runninglights:</span>when the timer is up, the running lights function will be called and will show a purple and pink running light sequence showing that the timer is finished</p>
+                    <p><span>timer1_color, timer2_color, timer3_color: </span>these are the different progress colors that will be shown after the running lights function. Depending on what preset timer button that you pressed, it will show a different color.</p>
+                    <img src="images/final_images/code.png" alt="Arduino Code" class="heightimg-350px" >
 
                 </div>
 
