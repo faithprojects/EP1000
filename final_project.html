@@ -75,7 +75,7 @@
                     <h2>MY PROJECT IDEA</h2>
                     <p>I came up with an idea for making a light box coding timer which will help you to be motivated to do coding by having a laser cut box with letters that will light up using the neopixels which is the progress bar of the day and push buttons as a reset button and preset timings for how long you want to study for the day.</p>
 
-                    <p>But after seeking advice from Mr Willie, I decided to change it up to make it more to motivation for studying and productivity for students instead of coding for engineering students. I have also changed the design to make a nanoleaf inspired study timer using each nanolight blocks as the progress bar of the day the nanolight blocks are modular so you are able to move it around to make different patterns and are all connected by small connectors and displaying colorful lights using the neopixels while the push buttons are preset timings for how long do you want to study for the day and a reset button.</p>
+                    <p>But after seeking advice from Mr Willie, I decided to change it up to make it more to motivation for studying and productivity for students instead of coding for engineering students. I have also changed the design to make a nanoleaf inspired study timer using each nanolight cubes as the progress bar of the day the nanolight cubes are modular so you are able to move it around to make different patterns and are all connected by small connectors and displaying colorful lights using the neopixels while the push buttons are preset timings for how long do you want to study for the day and a reset button.</p>
 
                     <div class="idea-content">
                         <div class="idea-images">
@@ -92,7 +92,7 @@
                         </div>
                         <div class="idea-images">
                         
-                            <p>The cardboard model that I made</p>
+                            <p>The cardboard model that I made from the final sketch study timer</p>
                             <img src="images/final_images/cardboard.jpg" alt="cardboard prototype" class="heightimg-250px" >
     
                         </div>
@@ -151,7 +151,7 @@
                         </tr>
                         <tr>
                             <td>1</td>
-                            <td>A4 size 3mm translucent acrylic</td>
+                            <td>A4 size 3mm frosted acrylic</td>
                             <td>SGD20.90</td>
                         </tr>
                         <tr>
@@ -173,15 +173,15 @@
                         </tr>
                         <tr>
                             <td>CAD Design</td>
-                            <td>Box stand design, Modular Cubes design, Cube connector design</td>
+                            <td>Box stand design, Modular Cubes design, Cube connector design, Arduino and Breadboard Holder design, Connector Storage design</td>
                         </tr>
                         <tr>
                             <td>Laser Cutting</td>
-                            <td>Box stand, Acrylic light </td>
+                            <td>Box stand, Front lid </td>
                         </tr>
                         <tr>
                             <td>3D Printing</td>
-                            <td>Cube connectors and Modular Cubes</td>
+                            <td>Cube connectors, Modular Cubes, Arduino and Breadboard Holder, Connector storage</td>
                         </tr>
                         <tr>
                             <td>Processing System</td>
@@ -207,7 +207,7 @@
                 <div id="final-electronics">
                     <h2>ELECTRONICS</h2>
                     <h3>Circuit diagram in TinkerCAD</h3>
-                    <p>I tested my circuit on TinkerCAD before using the actual components just to make sure it works and so that I don't accidentally burn the actual components. From the circuit diagram, the Din of the neopixel is connected to pin 8 and the 4 push buttons are connected to pins 7, 6, 5, 4 respectively.</p>
+                    <p>I tested my circuit on TinkerCAD before using the actual components just to make sure it works and so that I don't accidentally burn the actual components. From the circuit diagram, the Din of the neopixel is connected to pin 8 (Brown wire) and the 4 push buttons are connected to pins 7, 6, 5, 4 respectively (Yellow, Blue, Green, Orange wire).</p>
                     <img src="images/final_images/tinkercad_circuit.png" alt="circuit diagram" class="heightimg-200px" >
 
 
@@ -220,11 +220,9 @@
                     <img src="images/final_images/solderedbuttons.jpg" alt="soldered Buttons" class="heightimg-250px" >
 
                     <h4>Neopixels</h4>
-                    <p>For the neopixels, this was abit challenging to solder as I have never soldered neopixels before and afraid of putting too much heat on to the neopixel which might end up burning the neopixel. It took a long process as the wires I used were dupoint cables and had to take note which side the female and male dupoint cables are gonna be placed. The female and male dupoint cables are also of different lengths which I made the male dupoint cables longer than the female dupoint cables so that when trying to connect the cables one cable to another it would be able to reach to the other end of the cable and cable management later wont be too messy with too many long cables so I just had the male dupoints cables longer than female dupoint cables.</p> 
+                    <p>For the neopixels, this was abit challenging to solder as I have never soldered neopixels before and afraid of putting too much heat on to the neopixel which might end up burning the neopixel. It took a long process as the wires I used were dupoint cables and had to take note which side the female and male dupoint cables are gonna be placed. The female and male dupoint cables are also of different lengths which I made the male dupoint cables longer than the female dupoint cables so that when trying to connect the cables from one cable to another it would be able to reach to the other end of the cable and cable management later wont be too messy with too many long cables so I just had the male dupoints cables longer than female dupoint cables.</p> 
                     
                     <p>I messed up the neopixel a few times cuz I couldn't get the wire to solder on properly onto the neopixel strip and it would break off after I soldered it. It took a few tries but I managed to get 4 strips of neopixel soldered properly and using a heatshrink tubing to keep them in place. I have also used masking tape to line up the wires correctly so that I know which is the input, VCC and GND so that I don't accidentally short the wires when testing and indicated the GND using a black permanent marker and VCC using Red permanent marker so that is easy to identify.</p>
-                    <p>Broken neopixel</p>
-                    <img src="images/final_images/brokenneopixel.jpg" alt="Broken neopixel" class="heightimg-350px" >
 
                     <div class="idea-content">
                         <div class="idea-images">
@@ -261,8 +259,8 @@
                     <p><span>Line 8 to 22:</span> Intializing the integer of the last button pressed and current button pressed for all the buttons</p>
                     <p><span>Line 24 to 25:</span> Declaring what pin is the neopixel connected to and how many LEDS are on the neopixel</p>
                     <p><span>Line 27:</span> Integer i starts at 0 for the progress bar of the LEDs to light up later on</p>
-                    <p><span>Line 45 to 59:</span></p>
-                    <p><span>Line 62 to 93:</span> They have the same if else functions to each of the statements that i will increment by 3 every time the preset timer buttons are pressed. The 4 statments after each of the i += 3 lines are the functions which will be explained later</p>
+                    <p><span>Line 45 to 59:</span> Reading of the preset Timer buttons</p>
+                    <p><span>Line 62 to 93:</span> They have the same if else functions to each of the statements that will increment by 3 every time the preset timer buttons are pressed. The 4 statements after each of the i += 3 lines are the functions which will be explained later</p>
                     <p><span>Line 95 to 102:</span> When the reset button is triggered, it will make i become 0 again and clear all leds</p>
                     <h3>Functions</h3>
                     <p><span>startlight:</span> This function will be called first to show a full bar of green leds for one sec to indicate the start of the timer</p>
@@ -280,44 +278,44 @@
 
                     <h3>Fusion360: Testing pieces</h3>
                     <h4>Slot & connector</h4>
-                    <p>I test modelled a Slot and connector to see how well it would be able to slide in and out and lock together so that i could use the design to put into my Nanolight block.</p>
+                    <p>I test modelled a slot and connector to see how well it would be able to slide in and out and lock together so that I could use the design to put into my Nanolight cube.</p>
                     <img src="images/final_images/test slot piece_heroshot.jpg" alt="test piece" class="heightimg-250px" >
                     <iframe width="640" height="480" frameborder="0" allowFullScreen webkitallowfullscreen mozallowfullscreen src="https://gallery.autodesk.com/projects/171257/assets/659031/embed"></iframe>
                     
                     <h4>Screw Hole</h4>
-                    <p>I also tested the screw hole to make sure it was the right fit and able to screw in and out for the Nanolight block too.</p>
+                    <p>I also tested the screw hole to make sure it was the right fit and able to screw in and out for the Nanolight cube too.</p>
                     <img src="images/final_images/Screw test_heroshot.jpg" alt="screw test" class="heightimg-250px" >
                     <iframe width="640" height="480" frameborder="0" allowFullScreen webkitallowfullscreen mozallowfullscreen src="https://gallery.autodesk.com/projects/171262/assets/659041/embed"></iframe>
 
 
-                    <h3>Fusion360: Nanolight block</h3>
-                    <p>Using Fusion360, I modelled the Nanolight block wheree the neopixels will be placed. It has 3 parts:</p>
+                    <h3>Fusion360: Nanolight Cube</h3>
+                    <p>Using Fusion360, I modelled the Nanolight cube where the neopixels will be placed. It has 3 parts:</p>
                     <iframe width="640" height="480" frameborder="0" allowFullScreen webkitallowfullscreen mozallowfullscreen src="https://gallery.autodesk.com/projects/171264/assets/659047/embed"></iframe>
                     <ol>
                         <li>Back lid: Which is where the neopixel will be attached to and where there is some cable management on the outside of the backlid there is also holes for the screw to be inserted later on when screwing it together with the block.</li>
                         <img src="images/final_images/back lid_heroshot.jpg" alt="back lid" class="heightimg-250px" >
                         
-                        <li>cube: Where there are screw holes to be able to screw in the back lid and where three forths of the cube will be using a transparent filament to be able to diffuse the light from the neopixels and the other one forth is using white fiament.</li>
+                        <li>Cube: Where there are screw holes to be able to screw in the back lid and the cube will be using a transparent filament to be able to diffuse the light from the neopixels and one part of the Cube will be usign white filament.</li>
                         <img src="images/final_images/Nanolight box_heroshot.jpg" alt="nanolight cube" class="heightimg-250px" >
 
-                        <li>Front lid: Where we will be using a translucent acrylic to help diffuse the light from the neopixels. Initally it is connected to the cube but I decided to separate it because the print time was too long and it was a more reasonable to separate it from the cube.</li>
+                        <li>Front lid: Where we will be using a frosted acrylic to help diffuse the light from the neopixels. Initally it is connected to the cube but I decided to separate it because the print time was too long and it was a more reasonable to separate it from the cube.</li>
                         <img src="images/final_images/front lid acrylic_heroshot.jpg" alt="front lid acrylic" class="heightimg-250px" >
                     </ol>
 
 
                     <h3>Fusion360: Box Stand</h2>
-                    <p>Using fusion 360, I modelled the box stand which is where the buttons will be and where it will house the arduino and breadboard. One side of the box will have holes for the wire to connect to the breadboard and holes for the buttons and another side of the box will have a hole for to be able to connect the arduino to my power bank or my computer so that I can still edit code and power the arduino.</p>
+                    <p>Using fusion 360, I modelled the box stand which is where the buttons will be and where it will house the arduino and breadboard. One side of the box will have holes for the wire to connect to the neopixels and holes for the buttons and another side of the box will have a hole to be able to connect the arduino to my power bank or my computer so that I can still edit code and power the arduino.</p>
                     <img src="images/final_images/stand box_heroshot.jpg" alt="Box Stand" class="heightimg-250px" >
                     <iframe width="640" height="480" frameborder="0" allowFullScreen webkitallowfullscreen mozallowfullscreen src="https://gallery.autodesk.com/projects/171255/assets/659024/embed"></iframe>
 
                     <h3>Fusion360: Arduino and Breadboard Holders</h2>
-                    <p>Using Fusion360, I modelled some small L shaped brackets to hold the arduino and breadboard in place inside the box stand.</p>
+                    <p>Using Fusion360, I modelled some small L shaped holders to hold the arduino and breadboard in place inside the box stand.</p>
                     <img src="images/final_images/Arduino_and_breadboard_holder_heroshot.jpg" alt="Arduino and Breadboard Holders" class="heightimg-250px" >
                     <iframe width="640" height="480" frameborder="0" allowFullScreen webkitallowfullscreen mozallowfullscreen src="https://gallery.autodesk.com/projects/171265/assets/659050/embed"></iframe>
                     
 
                     <h3>(Add on) Fusion360: Connector Storage</h3>
-                    <p>So after assembing the box stand and printing the connectors, I realized that I dont have a storage space for the connectors to be placed if there are extra connectors or connectors that are unused so I modelled a very simple L shaped bracket that will later on be glued and placed inside the box stand at one corner.</p>
+                    <p>So after assembing the box stand and printing the connectors, I realized that I dont have a storage space for the connectors to be placed if there are extra connectors or connectors that are unused so I modelled a very simple L shape that will later on be glued and placed inside the box stand at one corner.</p>
                     <img src="images/final_images/connector storage_heroshot.jpg" alt="connector storage" class="heightimg-250px" >
                     <iframe width="640" height="480" frameborder="0" allowFullScreen webkitallowfullscreen mozallowfullscreen src="https://gallery.autodesk.com/projects/171259/assets/659035/embed"></iframe>
                     
@@ -351,7 +349,7 @@
                         <li>Infill: 10%</li>
                         <li>Speed: 60mm/s</li>
                     </ul>
-                    <p>I had to reprint the lid 3 times before I got it right because the cable management bar was too brittle and thin and it kept breaking whenever I was trying to remove the supports.I also forgot to make the thickness where the screw holes are abit thinner as they were too tall for the screw to fit and it wont be able to screw together with the nanolight cube. So I went back onto Fusion360 to make the bar thicker and fix the thickness and finally on the third try it was strong enough to not break anymore and it was the right thickness.</p>
+                    <p>I had to reprint the lid 3 times before I got it right because the cable management bar was too brittle and thin and it kept breaking whenever I was trying to remove the supports. I also forgot to make the thickness where the screw holes are abit thinner as they were too tall for the screw to fit and it wont be able to screw together with the nanolight cube. So I went back onto Fusion360 to make the bar thicker and fix the thickness and finally on the third try it was strong enough to not break anymore and it was the right thickness.</p>
                     <div class="idea-content">
                         <div class="idea-images">
                         
@@ -381,7 +379,7 @@
                     <p>After the successful test prints of the connectors, I went back to fusion, and made the connectors abit longer about 35mm long to be able to hold the cube better when they are stacked or combined. </p>
                     <img src="images/final_images/connector piece_heroshot.jpg" alt="GND Indicator neopixel" class="heightimg-250px" >
                     <iframe width="640" height="480" frameborder="0" allowFullScreen webkitallowfullscreen mozallowfullscreen src="https://gallery.autodesk.com/projects/171260/assets/659038/embed"></iframe>
-                    <p>I printed 4 connectors but you can print more depending on how many Nanolight cubes you have.</p>
+                    <p>I printed 4 connectors but you can print more depending on how many Nanolight cubes you printed out.</p>
                     <img src="images/final_images/connectors_finish.jpg" alt="Finished Connectors" class="heightimg-300px" >
 
 
@@ -394,7 +392,7 @@
                     <p>The Connector Storage turned out great.</p>
                     <img src="images/final_images/connectorstorage_finish.jpg" alt="Finished Connectors Storage" class="heightimg-300px" >
 
-                    <h3>Arduino andd breadboard holders</h3>
+                    <h3>Arduino and breadboard holders</h3>
                     <p>Here are the settings that I used:</p>
                     <ul>
                         <li>Infill: 10%</li>
@@ -411,13 +409,45 @@
                     <h2>LASER CUTTING</h2>
                     <h3>Box Stand</h3>
                     <p>I managed to successfully cut my box stand only to realized that I used 4mm plywood instead of 3mm plywood but I'm okay with it because it is still able to piece together using superglue and it still works.</p>
-                    <img src="images/final_images/lasercut_finish.jpg" alt="Finished Box Stand Laser Cut" class="heightimg-300px" >
+                    <div class="idea-content">
+                        <div class="idea-images">
+                        
+                            <p>Box stand in inkscape</p>
+                            <img src="images/final_images/inkscape_box stand1.png" alt="Box stand1 inkscape" class="heightimg-250px" >
+    
+                        </div>
+
+                        <div class="idea-images">
+                        
+                            <img src="images/final_images/inkscape_box stand2.png" alt="Box stand2 inkscape" class="heightimg-250px" >
+    
+                        </div>
+        
+                        <div class="idea-images2">
+                            <p>Laser cut Box stand</p>
+                            <img src="images/final_images/lasercut_finish.jpg" alt="Finished Box Stand Laser Cut" class="heightimg-300px" >
+                            
+                        </div>
+    
+                    </div>
 
 
                     <h3>Front Lid</h3>
                     <p>Using a translucent 3mm acrylic to cut the front lids which will be used to diffuse the nanolights which works perfectly and diffusing alot of the neopixel lights.</p>
-                    <img src="images/final_images/acrylic_finish.jpg" alt="Finished Front Acrylic lid" class="heightimg-250px" >
                     <div class="idea-content">
+                        <div class="idea-images">
+                        
+                            <p>Front lid in inkscape</p>
+                            <img src="images/final_images/inkscape_front lid.png" alt="Front lid inkscape" class="heightimg-250px" >
+    
+                        </div>
+        
+                        <div class="idea-images2">
+                            <p>Laser cut front lid</p>
+                            <img src="images/final_images/acrylic_finish.jpg" alt="Finished Front Acrylic lid" class="heightimg-250px" >
+                            
+                        </div>
+
                         <div class="idea-images">
                         
                             <p>Frosted acrylic</p>
@@ -439,7 +469,7 @@
                 <div id="assembly">
                     <h2>ASSEMBLY OF PRODUCT</h2>
                     <h3>Box Stand</h3>
-                    <p>I used super glue to glue all the laser cut plywood pieces together. The top is kept open and not glued so that I can easily fixed the wires whenever I need to.</p>
+                    <p>I used super glue to glue all the laser cut plywood pieces together. The top is kept open and not glued so that I can easily fixed the wires whenever I need to and to take the connectors from the connector storage.</p>
 
                     <div class="idea-content">
                         <div class="idea-images">
@@ -460,9 +490,8 @@
                     <p>I then super glued the connectors storage to the bottom right corner of the box stand. Then I let everything to dry for awhile to make sure everything is properly intacted.</p>
                     <img src="images/final_images/assembing_connectorstorage.jpg" alt="Assemble Connector Storage" class="heightimg-300px" >
 
-
-                    <p>This is the finished look of the box stand.</p>
                     <div class="idea-content">
+                        <p>This is the finished look of the box stand.</p>
                         <div class="idea-images">
                         
                             <p>Front of the Box Stand</p>
@@ -496,7 +525,7 @@
                     <img src="images/final_images/assembing_neopixel3.jpg" alt="Assemble Neopixel 1" class="heightimg-250px" >
 
                     <h3>Nanolight cube</h3>
-                    <p>I first tested one cube to put the acrylic together with the cube using 90 min epoxy glue for a stronger bond and to see if it has any reaction to epoxy glue as I have never used epoxy with acrylic before. I first sanded the surfaces for a better bond on the acrylic and cube and clean the dust away. then I mixed the 2 part epoxy and quickly applied onto the cube as the epoxy has a working time of 3-4mins. Then I placed the acrylic on top of the 3d printed cube making sure that the acrylic is aligned with the cube, this was a tough process as the acrylic kept sliding around and it was abit messy to try and align it together.</p>
+                    <p>I first tested one cube to put the acrylic together with the cube using 90 min epoxy glue for a stronger bond and to see if it has any reaction to epoxy glue as I have never used epoxy with acrylic before. I first sanded the surfaces for a better bond on the acrylic and cube and clean the dust away. Then I mixed the 2 part epoxy and quickly applied onto the cube as the epoxy has a working time of 3-4mins. Then I placed the acrylic on top of the 3d printed cube making sure that the acrylic is aligned with the cube, this was a tough process as the acrylic kept sliding around and it was abit messy to try and align it together.</p>
                     <div class="idea-content">
                         <div class="idea-images">
                             <p>Epoxy glue that I used to put the acrylic and nanolight cube togther.</p>
@@ -663,7 +692,7 @@
 
                 <!--FINAL PRODUCT-->
                 <div id="finished-product">
-                    
+                    <h2>Final Product</h2>
                 </div>
 
 
