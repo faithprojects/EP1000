@@ -55,7 +55,6 @@
                 <a href="#assembly">Assembly of Product</a><br>
                 <a href="#finished-product">Final Product</a><br>
                 <a href="#reflection">Reflection</a><br>
-                <a href="#final-download">Download my Files</a>
             </div>
 
             <div id="header-final">
@@ -260,14 +259,15 @@
                     <p><span>Line 24 to 25:</span> Declaring what pin is the neopixel connected to and how many LEDS are on the neopixel</p>
                     <p><span>Line 27:</span> Integer i starts at 0 for the progress bar of the LEDs to light up later on</p>
                     <p><span>Line 45 to 59:</span> Reading of the preset Timer buttons</p>
-                    <p><span>Line 62 to 93:</span> They have the same if else functions to each of the statements that will increment by 3 every time the preset timer buttons are pressed. The 4 statements after each of the i += 3 lines are the functions which will be explained later</p>
-                    <p><span>Line 95 to 102:</span> When the reset button is triggered, it will make i become 0 again and clear all leds</p>
+                    <p><span>Line 62 to 101:</span> They have the same if else functions to each of the statements that will increment by 3 every time the preset timer buttons are pressed. When the progress bar is full, it will flash a green color indicating that you have accomplished your full progress bar.</p>
+                    <p><span>Line 103 to 110:</span> When the reset button is triggered, it will make i become 0 again and clear all leds</p>
                     <h3>Functions</h3>
-                    <p><span>startlight:</span> This function will be called first to show a full bar of green leds for one sec to indicate the start of the timer</p>
+                    <p><span>startlight:</span> This function will be called first to show a full bar of orange leds for one sec to indicate the start of the timer</p>
                     <p><span>timer1, timer2, timer3:</span> These are the preset timers for each button (e.g. 30min, 1hr, 2hr)</p>
                     <p><span>runninglights:</span> When the timer is up, the running lights function will be called and will show a purple and pink running light sequence showing that the timer is finished</p>
                     <p><span>timer1_color, timer2_color, timer3_color: </span> These are the different progress colors that will be shown after the running lights function. Depending on what preset timer button that you pressed, it will show a different color.</p>
-                    <img src="images/final_images/code.png" alt="Arduino Code" class="widthimg-700px" >
+                    <p><span>progressbar_done: </span> This will show flashing green leds to indicate the progress bar is full.</p>
+                    <img src="images/final_images/code_updated.png" alt="Arduino Code" class="widthimg-700px" >
 
                 </div>
 
@@ -409,17 +409,17 @@
                     <h2>LASER CUTTING</h2>
                     <h3>Box Stand</h3>
                     <p>I managed to successfully cut my box stand only to realized that I used 4mm plywood instead of 3mm plywood but I'm okay with it because it is still able to piece together using superglue and it still works.</p>
+                    <p>Box stand in inkscape</p>
                     <div class="idea-content">
                         <div class="idea-images">
                         
-                            <p>Box stand in inkscape</p>
-                            <img src="images/final_images/inkscape_box stand1.png" alt="Box stand1 inkscape" class="heightimg-250px" >
+                            <img src="images/final_images/inkscape_box stand1.png" alt="Box stand1 inkscape" class="heightimg-200px" >
     
                         </div>
 
                         <div class="idea-images">
                         
-                            <img src="images/final_images/inkscape_box stand2.png" alt="Box stand2 inkscape" class="heightimg-250px" >
+                            <img src="images/final_images/inkscape_box stand2.png" alt="Box stand2 inkscape" class="heightimg-200px" >
     
                         </div>
         
@@ -489,9 +489,9 @@
                         
                     <p>I then super glued the connectors storage to the bottom right corner of the box stand. Then I let everything to dry for awhile to make sure everything is properly intacted.</p>
                     <img src="images/final_images/assembing_connectorstorage.jpg" alt="Assemble Connector Storage" class="heightimg-300px" >
+                    <p>This is the finished look of the box stand.</p>
 
                     <div class="idea-content">
-                        <p>This is the finished look of the box stand.</p>
                         <div class="idea-images">
                         
                             <p>Front of the Box Stand</p>
@@ -693,19 +693,21 @@
                 <!--FINAL PRODUCT-->
                 <div id="finished-product">
                     <h2>Final Product</h2>
+                    <p>Here is my study timer!</p>
+                    <p>Here are some pictures of my final product</p>
                 </div>
 
 
                 <!--REFLECTION-->
                 <div id="reflection">
                     <h2>REFLECTION</h2>
-                </div>
+                    <h3>What have I learnt?</h3>
+                    <p>I have learnt more into what I practiced or what I learnt in class to put to the test of my knowledge when fabricating my final product which I enjoyed the whole process from start to finish. It has encouraged me to make more projects like this in the future and to be able to document the process and share to others my process and projects.</p>
 
+                    <h3>What would I have done differently?</h3>
+                    <p>I would have changed the size of my study timer to be smaller  as it is quite a big product to put on a desk if your desk is small. I would also change the design of the box stand where the long wire that connects to the neopixels instead of coming out from the side of the box stand it would come out from the top lid of the box stand.</p>
 
-                <!--DOWNLOADS-->
-                <div id="final-download">
-                    <h2>DOWNLOAD MY FILES</h2>
-
+                    <p>I would also look into a different method of holding the back lid and the nanolight cubes together like using magnets instead of screws so that it is easier to remove the back lids.</p>
                 </div>
 
             </div>
