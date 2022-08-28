@@ -247,6 +247,10 @@ li.dropdown-menu {
   height: 400px;
 }
 
+.widthimg-500px {
+  width: 500px;
+}
+
 .widthimg-700px {
   width: 700px;
 }
