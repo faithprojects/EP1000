@@ -377,17 +377,20 @@ section {
   
 }
 
-table {
-  margin-left: auto;
-  margin-right: auto;
-  
-}
 
-td {
-  padding: 50px;
+.about-description {
+  padding: 30px;
   font-size: 17px;
   color: black;
 }
+
+.about-table {
+  display: grid;
+  grid-template-columns: auto auto ;
+  column-gap: 2px;
+  padding: 10px;
+}
+
 
 .hobbies {
   list-style-type: square;
